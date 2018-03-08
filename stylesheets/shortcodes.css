@@ -62,7 +62,7 @@ body.style-color {
 --------------------------------------------------------------*/
 .flat-button {
     padding: 0 20px;
-    background-color: #18ba60;
+    background-color: #DAA419;
     color: #fff;
     font-weight: 600;
     -webkit-transition: all 0.3s ease-in-out;
@@ -225,7 +225,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -260,7 +260,7 @@ body.style-color {
     font-family: "FO";
     content: "\e94c";
     font-size: 45px;
-    color: #18ba60;
+    color: #DAA419;
 }
 
 .flat-icon .iconbox.icon-left .box-header.v1 i:before {
@@ -283,7 +283,7 @@ body.style-color {
     font-weight: 600;
     color: #222;
     margin-bottom: 13px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .flat-icon .icon-post .box-content p {
@@ -301,7 +301,7 @@ body.style-color {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    background-color: #3a526a;
+    background-color: #222;
     border-radius: 50%;
 }
 
@@ -335,7 +335,7 @@ body.style-color {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: #18ba60;
+    color: #DAA419;
 }
 
 .flat-icon .icon-circle .iconbox .icon-post .comment-reply:hover {
@@ -413,7 +413,7 @@ body.style-color {
 
 /* Box right */
 .flat-choose-us .box {
-    background-color: #3a526a;
+    background-color: #222;
     padding: 63px 35px;
     border-radius: 3px;
 }
@@ -429,7 +429,7 @@ body.style-color {
     color: #fff;
     margin-bottom: 21px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .flat-choose-us .box .title-v1 p {
@@ -446,8 +446,8 @@ body.style-color {
 .flat-choose-us .box form fieldset input {
     width: 100%;
     border-radius: 3px;
-    background-color: #496076;
-    border: #496076;
+    background-color: #444;
+    border: #444;
 }
 
 .flat-choose-us .box form select,
@@ -518,7 +518,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -562,14 +562,14 @@ body.style-color {
 
 .flat-news .company-news .post-us .item .meta-post a {
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: none;
     color: #999;
 }
 
 .flat-news .company-news .post-us.v4 .item .meta-post a {
     font-size: 12px;
-    text-transform: uppercase;
-    color: #18ba60;
+    text-transform: none;
+    color: #DAA419;
 }
 
 .flat-news .company-news .post-us .item .title {
@@ -615,7 +615,7 @@ body.style-color {
     text-align: center;
     width: 25px;
     height: 25px;
-    background-color: #cacaca;
+    background-color: #444;
     border-radius: 50%;
 }
 
@@ -642,11 +642,11 @@ body.style-color {
     line-height: 50px;
     font-size: 14px;
     letter-spacing: 1.2px;
-    background-color: #3a526a;
+    background-color: #222;
 }
 
 .flat-news .company-news .post-us.v4 .button-view .flat-button:hover {
-    background-color: #18ba60;
+    background-color: #DAA419;
 }
 
 /* Home 4 */
@@ -708,7 +708,7 @@ body.style-color {
 }
 
 .flat-talk .title-section span {
-    color: #18ba60;
+    color: #DAA419;
 }
 
 /* Flat-fact
@@ -716,7 +716,7 @@ body.style-color {
 .flat-fun-fact .iteam-fact {
     width: 33.33%;
     float: left;
-    background-color: #3a526a;
+    background-color: #666;
 }
 
 .flat-fun-fact .iteam-fact.v1 {
@@ -728,7 +728,7 @@ body.style-color {
 }
 
 .flat-fun-fact .iteam-fact.v2 {
-    background-color: #344a5f;
+    background-color: #444;
 }
 
 .flat-fun-fact .iteam-fact.v3 {
@@ -736,7 +736,7 @@ body.style-color {
 }
 
 .flat-fun-fact .iteam-fact.v3 {
-    background-color: #304357;
+    background-color: #222;
 }
 
 .flat-fun-fact .iteam-fact .num-fact,
@@ -760,7 +760,7 @@ body.style-color {
     line-height: 24px;
     font-weight: 600;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     margin-bottom: 14px;
 }
 
@@ -769,7 +769,7 @@ body.style-color {
     font-size: 12px;
     font-weight: 600;
     line-height: 28px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .flat-fun-fact .iteam-fact .text-fact .comment-reply i {
@@ -778,7 +778,7 @@ body.style-color {
 }
 
 .flat-fun-fact .iteam-fact .text-fact .comment-reply:hover {
-    color: #18ba60;
+    color: #DAA419;
 }
 
 /* Testimonial
@@ -949,7 +949,7 @@ body.style-color {
 .flat-reviews .owl-theme .owl-dots .owl-dot.active span,
 .flat-reviews .owl-theme .owl-dots .owl-dot:hover span {
     background-color: transparent;
-    border: 2px solid #18ba60; 
+    border: 2px solid #DAA419; 
     width: 10px;
     height: 10px;
 }
@@ -1043,7 +1043,7 @@ body.style-color {
     display: block;
     width: 0;
     height: 3px;
-    background: #18ba60;
+    background: #DAA419;
     transition: width .3s;
 }
 
@@ -1074,7 +1074,7 @@ body.style-color {
 
 .flat-portfolio .portfolio-filter > li a:hover,
 .flat-portfolio .portfolio-filter > li.active a {
-    color: #18ba60;
+    color: #DAA419;
 }
 
 /* Home 1 */
@@ -1096,8 +1096,8 @@ body.style-color {
 
 .flat-portfolio .item .item-content .link-v1 .title {
     font-size: 12px;
-    text-transform: uppercase;
-    color: #18ba60;
+    text-transform: none;
+    color: #DAA419;
     margin-bottom: 15px;
 }
 
@@ -1161,7 +1161,7 @@ body.style-color {
 
 .flat-portfolio.v3 .portfolio-filter > li:hover,
 .flat-portfolio.v3 .portfolio-filter > li.active {
-    background-color: #18ba60;
+    background-color: #DAA419;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -1181,7 +1181,7 @@ body.style-color {
 
 .flat-portfolio.v3 .portfolio-filter > li a {
     padding: 0 28px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .flat-portfolio.v6 .portfolio-filter > li.active a {
@@ -1224,7 +1224,7 @@ body.style-color {
 }
 
 .flat-portfolio.v3 .item.v3:hover .link-v3 {
-    background-color: #3a526a;
+    background-color: #222;
     -webkit-transition: all 0.5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
         -ms-transition: all 0.5s ease-in-out;
@@ -1233,7 +1233,7 @@ body.style-color {
 }
 
 .flat-portfolio.v3 .item.v3:hover .link-v3 .title {
-    color: #18ba60;
+    color: #DAA419;
     -webkit-transition: all 0.5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
         -ms-transition: all 0.5s ease-in-out;
@@ -1328,7 +1328,7 @@ body.style-color {
 .case-single .content-post .title-post .title {
     font-size: 22px;
     font-weight: 600;
-    color: #18ba60;
+    color: #DAA419;
     margin-bottom: 16px;
 }
 
@@ -1374,7 +1374,7 @@ body.style-color {
     font-family: "FontAwesome";
     content: "\f111";
     font-size: 6px;
-    color: #18ba60;
+    color: #DAA419;
 }
 
 /* case-single 2 */
@@ -1458,7 +1458,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -1494,7 +1494,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -1543,8 +1543,8 @@ body.style-color {
 }
 
 .flat-portfolio .portfolio-wrap .item .link .title {
-    text-transform: uppercase;
-    color: #18ba60;
+    text-transform: none;
+    color: #DAA419;
     margin-bottom: 15px;
 }
 
@@ -1582,7 +1582,7 @@ body.style-color {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 23px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .flat-form-request .form-request .post .text-form p {
@@ -1669,7 +1669,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -1742,7 +1742,7 @@ body.style-color {
 
 .flat-services .services-post .item .post .comment-reply {
     font-size: 14px;
-    color: #18ba60;
+    color: #DAA419;
     font-weight: 600;
 }
 
@@ -1765,7 +1765,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -1815,7 +1815,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -1849,7 +1849,7 @@ body.style-color {
 
 .flat-team .post-wrap .post .title {
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: none;
     color: #222;
     font-weight: 600;
     margin-bottom: 15px;
@@ -1862,7 +1862,7 @@ body.style-color {
 }
 
 .flat-team .post-wrap .post .comment-reply {
-    color: #18ba60;
+    color: #DAA419;
     font-weight: 600;
 }
 
@@ -1914,7 +1914,7 @@ body.style-color {
 
 .flat-team .post-wrap.v2 .post .comment-reply {
     display: inline-block;
-    background-color: #18ba60;
+    background-color: #DAA419;
     color: #fff;
     padding: 8px 18px 7px;
     border-radius: 3px;
@@ -1940,7 +1940,7 @@ body.style-color {
 
 .flat-partner .post-wrap .post .title {
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: none;
     color: #222;
     font-weight: 600;
     margin-bottom: 15px;
@@ -1982,7 +1982,7 @@ body.style-color {
 
 .flat-partner .post-wrap.v2 .post .comment-reply {
     display: inline-block;
-    background-color: #18ba60;
+    background-color: #DAA419;
     color: #fff;
     padding: 8px 17px 7px;
     border-radius: 3px;
@@ -2075,7 +2075,7 @@ body.style-color {
     font-family: "FontAwesome";
     font-size: 12px;
     content: "\f006";
-    color: #18ba60;
+    color: #DAA419;
 }
 
 .flat-overview .post-overview .post-list .box .feature-post iframe {
@@ -2113,7 +2113,7 @@ body.style-color {
 .flat-history .post-history .post .year-post p {
     position: relative;
     font-size: 23px;
-    color: #18ba60;
+    color: #DAA419;
     font-weight: 600;
 }
 
@@ -2213,8 +2213,8 @@ body.style-color {
 .flat-practice .practice-areas .item .link .title {
     font-size: 12px;
     margin-bottom: 14px;
-    text-transform: uppercase;
-    color: #18ba60;
+    text-transform: none;
+    color: #DAA419;
     margin-bottom: 15px;
 }
 
@@ -2244,7 +2244,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -2280,7 +2280,7 @@ body.style-color {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3a526a;
+    background-color: #222;
     content: '';
     z-index: 1; 
     box-sizing: border-box;
@@ -2329,8 +2329,8 @@ body.style-color {
 }
 
 .flat-practice .practice-areas  .portfolio-wrap .item .link .title {
-    text-transform: uppercase;
-    color: #18ba60;
+    text-transform: none;
+    color: #DAA419;
     margin-bottom: 15px;
 }
 
@@ -2355,7 +2355,7 @@ body.style-color {
     line-height: 58px;
     font-weight: 600;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     margin-bottom: 67px;
 }
 
@@ -2400,7 +2400,7 @@ body.style-color {
 }
 
 .sidebar-services .list-services ul li:hover {
-    background-color: #3a526a;
+    background-color: #222;
     -webkit-transition: all 0.5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
         -ms-transition: all 0.5s ease-in-out;
@@ -2445,7 +2445,7 @@ body.style-color {
     line-height: 25px;
     font-weight: 700;
     color: #222;
-    text-transform: uppercase;
+    text-transform: none;
     margin-bottom: 17px;
 }
 
@@ -2481,7 +2481,7 @@ body.style-color {
     font-family: "FontAwesome";
     content: "\f111";
     font-size: 6px;
-    color: #18ba60;
+    color: #DAA419;
 }
 
 .flat-services-control .content-services .post .list-post p,
@@ -2520,7 +2520,7 @@ body.style-color {
 
 .flat-services-control .post.v3 .box .top-box i {
     font-size: 30px;
-    background-color: #18ba60;
+    background-color: #DAA419;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -2581,7 +2581,7 @@ body.style-color {
     font-family: "FontAwesome";
     font-size: 6px;
     content: "\f111";
-    color: #18ba60;
+    color: #DAA419;
 }
 
 .flat-services-control .post.v4 .box .list span {
@@ -2612,7 +2612,7 @@ body.style-color {
     top: 50%;
     left: 50%;
     margin: -30px 0 0 -32px;
-    color: #18ba60;
+    color: #DAA419;
     font-size: 20px;
     width: 60px;
     height: 60px;
@@ -2626,7 +2626,7 @@ body.style-color {
 }
 
 .flat-video-fancybox .overlay-inner i:hover {
-    background-color: #18ba60;
+    background-color: #DAA419;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -2672,7 +2672,7 @@ body.style-color {
 .flat-help .contact-help .phone-help p {
     font-size: 25px;
     line-height: 27px;
-    color: #18ba60;
+    color: #DAA419;
     font-weight: 600;
 }
 

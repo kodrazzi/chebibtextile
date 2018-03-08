@@ -3093,7 +3093,7 @@ website:   	http://www.themepunch.com
 	font-family: "Arial", sans-serif;
     line-height: 46px;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 15px;
     font-weight: 700;
     padding: 0 20px;
@@ -4671,7 +4671,7 @@ tp-caption.Team-Thumb,
     font-family: "Lato", sans-serif;
     line-height: 46px;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 13px;
     font-weight: 900;
     padding: 0 20px;
@@ -5811,7 +5811,7 @@ tp-caption.Team-Thumb,
 .tp-caption.title-slide {	
 	color: #222;
 	letter-spacing: 1.1px!important;	
-	text-transform: uppercase;	
+	text-transform: none;	
 	font-family: "Poppins", sans-serif;
 }
 
@@ -5841,8 +5841,8 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.flat-button-slider.bg-orange  {
-    border-color: #18ba60;
-    background: #18ba60;
+    border-color: #DAA419;
+    background: #DAA419;
 	padding: 0 30px 0 28px;
 }
 
