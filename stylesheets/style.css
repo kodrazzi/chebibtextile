@@ -2706,3 +2706,21 @@ article .comment.style1 {
 .tp-banner-container .flat-socials li i:hover:before {
 	color: #ed9f24;
 }
+.color-gold{
+	color:#DAA419 !important;
+}
+.color-gold-link a:hover,
+.color-gold-link a:focus,
+.color-gold-link a:link,
+.color-gold-link a:active{
+	color:#DAA419 !important;
+}
+.bg-gold{
+	background-color: #DAA419 !important;
+}
+.bg-gold-before::before{
+	background-color: #DAA419 !important;
+}
+.border-gold{
+	border-color: #DAA419 !important;
+}
