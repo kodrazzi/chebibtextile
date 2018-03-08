@@ -2044,12 +2044,18 @@ article .comment.style1 {
     left: 105px;
     background-color: #fff;
 }
+.widget .title-link.v3:before {
+	    left: 143px !important;
+}
 
 .widget .title-link.v3:after {
 	position: absolute;
 	top: 12px;
     left: 105px;
     background-color: #fff;
+}
+.widget .title-link.v3::after {
+	    left: 143px !important;
 }
 
 .widget-follow-us .follow-us li {
