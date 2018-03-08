@@ -2045,7 +2045,7 @@ article .comment.style1 {
     background-color: #fff;
 }
 .widget .title-link.v3:before {
-	    left: 143px !important;
+	    left: 138px !important;
 }
 
 .widget .title-link.v3:after {
@@ -2055,7 +2055,7 @@ article .comment.style1 {
     background-color: #fff;
 }
 .widget .title-link.v3::after {
-	    left: 143px !important;
+	    left: 138px !important;
 }
 
 .widget-follow-us .follow-us li {
