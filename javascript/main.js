@@ -338,7 +338,7 @@
           }
         },
         getlatlng: {
-          address: "Thành phố New York, Tiểu bang New York",
+          address: "Erkenez Mah. Ramazan YildirimCad 28/A Dulkadiroglu / Kahramanmaras / Turkey",
           callback: function (results) {
             if (!results) return;
             $(this).gmap3('get').setCenter(new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng()));
