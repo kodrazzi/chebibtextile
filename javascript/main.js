@@ -346,7 +346,7 @@
               marker: {
                 latLng: results[0].geometry.location,
                 options: {
-                  icon: 'http://kodrazzi.com/html/marker.png'
+                  icon: 'https://kodrazzi.github.io/chebibtextile/html/marker32x32.png'
                 }
               }
             });
