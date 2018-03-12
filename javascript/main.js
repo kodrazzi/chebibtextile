@@ -346,7 +346,7 @@
               marker: {
                 latLng: results[0].geometry.location,
                 options: {
-                  icon: './../html/marker32x32.png'
+                  icon: 'http://kodrazzi.com/html/marker.png'
                 }
               }
             });
