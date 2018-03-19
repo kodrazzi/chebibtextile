@@ -2919,6 +2919,15 @@ article .comment.style1 {
   border-color: #DAA419 !important;
 }
 
+.white {
+  color: white !important;
+}
+
+.title-edited {
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 0.75em;

@@ -2714,6 +2714,12 @@ body.style-color {
     padding: 53px 40px 59px;
     position: relative;
 }
+.contact-phone {
+    padding: 43px 40px;
+}
+.contact-email {
+    padding: 53px 40px 85px;
+}
 
 .contact-address .style1 img {
     margin-top: -128px;
