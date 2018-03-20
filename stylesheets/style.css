@@ -2963,3 +2963,11 @@ article .comment.style1 {
 .margin-top-31{
   margin-top:31px !important;
 }
+
+.box-shadow{
+  box-shadow: 0 5px 30px -5px rgba(0,0,0,.35);
+}
+
+.border-radius-3{
+  border-radius: 3px;
+}
