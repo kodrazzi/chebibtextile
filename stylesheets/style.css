@@ -2947,3 +2947,19 @@ article .comment.style1 {
 ::-webkit-scrollbar-thumb:hover {
   background: #DAA419; 
 }
+
+.header-photos{
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 14px;
+}
+
+.margin-0{
+  margin: 0 !important;
+}
+
+.margin-top-31{
+  margin-top:31px !important;
+}
