@@ -1,0 +1,31 @@
+// Datepicker
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+.box {
+  .datepicker-inline {
+    &,
+    .datepicker-days {
+      &,
+      > table {
+        width: 100%;
+        td {
+          &:hover {
+            background-color: rgba(255, 255, 255, .3);
+          }
+          &.day {
+            &.old,
+            &.new {
+              color: #777;
+            }
+          }
+        }
+      }
+    }
+  }
+}

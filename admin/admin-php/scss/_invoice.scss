@@ -1,0 +1,20 @@
+// Invoice
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+.invoice {
+  position: relative;
+  background: #fff;
+  border: 1px solid #f4f4f4;
+  padding: 20px;
+  margin: 10px 25px;
+}
+
+.invoice-title {
+  margin-top: 0;
+}

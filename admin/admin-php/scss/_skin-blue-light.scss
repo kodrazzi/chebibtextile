@@ -1,0 +1,101 @@
+// Skin Blue Light
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+.skin-blue-light {
+  //Navbar
+  .main-header {
+    .navbar {
+      @include navbar-variant($blue-light, #fff);
+      .sidebar-toggle {
+        color: #fff;
+        &:hover {
+          background-color: darken($blue-light, 5%);
+        }
+      }
+      @media (max-width: $screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+            a {
+              color: #fff;
+              &:hover {
+                background: darken($blue-light, 5%);
+              }
+            }
+          }
+        }
+      }
+    }
+    //Logo
+    .logo {
+      @include logo-variant($blue-light);
+    }
+
+    li.user-header {
+      background-color: $blue-light;
+    }
+  }
+
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+
+  //Create the sidebar skin
+  @include skin-light-sidebar($blue-light);
+  .main-footer {
+    border-top-color: $gray-lte;
+  }
+
+/* General Links */
+a {
+  color: $blue-light;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: $blue-light;
+}
+
+.btn-primary {
+  background-color: $blue-light;
+  border-color: darken($blue-light, 5%);
+  &:hover, &:active, &.hover {
+    background-color: darken($blue-light, 5%);
+  }
+}
+
+.ajax-content {
+  color: $blue-light;
+  font-weight: bold;
+}
+
+.pagination {
+  > .active > a,
+  > .active > span {
+    &,
+    &:hover,
+    &:focus {
+      color: white;
+      background-color: $blue-light;
+      border-color: $blue-light;
+    }
+  }
+}
+
+}
+
+.skin-blue.layout-top-nav .main-header > .logo {
+  @include logo-variant($blue-light);
+}

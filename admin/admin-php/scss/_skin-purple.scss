@@ -1,0 +1,94 @@
+// Skin Purple
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+.skin-purple {
+  //Navbar
+  .main-header {
+    .navbar {
+      @include navbar-variant($purple, #fff);
+      .sidebar-toggle {
+        color: #fff;
+        &:hover {
+          background-color: darken($purple, 5%);
+        }
+      }
+      @media (max-width: $screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+            a {
+              color: #fff;
+              &:hover {
+                background: darken($purple, 5%);
+              }
+            }
+          }
+        }
+      }
+    }
+    //Logo
+    .logo {
+      @include logo-variant(darken($purple, 5%));
+    }
+
+    li.user-header {
+      background-color: $purple;
+    }
+  }
+
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+
+  //Create the sidebar skin
+  @include skin-dark-sidebar($purple);
+
+    /* General Links */
+a {
+  color: $purple;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: $purple;
+}
+
+.btn-primary {
+  background-color: $purple;
+  border-color: darken($purple, 5%);
+  &:hover, &:active, &.hover {
+    background-color: darken($purple, 5%);
+  }
+}
+
+.ajax-content {
+  color: $purple;
+  font-weight: bold;
+}
+
+.pagination {
+  > .active > a,
+  > .active > span {
+    &,
+    &:hover,
+    &:focus {
+      color: white;
+      background-color: $purple;
+      border-color: $purple;
+    }
+  }
+}
+
+}

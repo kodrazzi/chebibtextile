@@ -1,0 +1,376 @@
+/** 
+ * Template Name: Ninova nvAdmin
+ * Template URI: http://yupagem.com/ninova/nvadmin/
+ * Author: the yupagem team
+ * Author URI: http://yupagem.com/
+ * Description: Ninova nvAdmin is a fully responsive HTML admin template.
+ * Version: 1.5.1
+ * License: Custom license
+ * License URI: http://themeforest.net/licenses/terms/regular
+ * Text Domain: nvadmin
+ * Tags: admin, chart, mailbox, chat, dashboard, responsive, jquery, bootstrap, sass, sidebar, clean
+ */
+
+ /**
+  * [Content List]
+  * --------------------------------------------------
+  #01 - Core
+  #02 - Alert
+  #03 - Boxes
+  #04 - Buttons
+  #05 - Callout
+  #06 - Carousel
+  #07 - Control Sidebar
+  #08 - Datepicker
+  #09 - Direct Chat
+  #10 - Dropdown
+  #11 - Errors
+  #12 - Forms
+  #13 - Full Calendar
+  #14 - Header
+  #15 - Info Box
+  #16 - Invoice
+  #17 - Labels
+  #18 - Lock Screen
+  #19 - Login & Register
+  #20 - Mail Box
+  #21 - Miscellaneous
+  #22 - Modal
+  #23 - Navs
+  #24 - Print
+  #25 - Products
+  #26 - Profile
+  #27 - Progress Bars
+  #28 - Select2
+  #29 - Sidebar Mini
+  #30 - Sidebar
+  #31 - Skin Black Light
+  #32 - Skin Black
+  #33 - Skin Blue Light
+  #34 - Skin Blue
+  #35 - Skin Green Light
+  #36 - Skin Green
+  #37 - Skin Orange Light
+  #38 - Skin Orange
+  #39 - Skin Purple Light
+  #40 - Skin Purple
+  #41 - Skin Red Light
+  #42 - Skin Red
+  #43 - Skin Yellow Light
+  #44 - Skin Yellow
+  #45 - Small Box
+  #46 - Social Widgets
+  #47 - Table
+  #48 - Timeline
+  #49 - Treeview
+  #50 - Users List
+  * ------------------------------------------------
+  */
+
+// Boxes
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+/**
+ * #01 - Core
+ * --------------------------------------------------
+ */
+@import "core";
+
+/**
+ * #02 - Alert
+ * --------------------------------------------------
+ */
+@import "alerts";
+
+/**
+ * #03 - Boxes
+ * --------------------------------------------------
+ */
+@import "boxes";
+
+/**
+ * #04 - Buttons
+ * --------------------------------------------------
+ */
+@import "buttons";
+
+/**
+ * #05 - Callout
+ * --------------------------------------------------
+ */
+@import "callout";
+
+/**
+ * #06 - Carousel
+ * --------------------------------------------------
+ */
+@import "carousel";
+
+/**
+ * #07 - Control Sidebar
+ * --------------------------------------------------
+ */
+@import "control-sidebar";
+
+/**
+ * #08 - Datepicker
+ * --------------------------------------------------
+ */
+@import "datepicker";
+
+/**
+ * #09 - Direct Chat
+ * --------------------------------------------------
+ */
+@import "direct-chat";
+
+/**
+ * #10 - Dropdown
+ * --------------------------------------------------
+ */
+@import "dropdown";
+
+/**
+ * #11 - Errors
+ * --------------------------------------------------
+ */
+@import "errors";
+
+/**
+ * #12 - Forms
+ * --------------------------------------------------
+ */
+@import "forms";
+
+/**
+ * #13 - Full Calendar
+ * --------------------------------------------------
+ */
+@import "fullcalendar";
+
+/**
+ * #14 - Header
+ * --------------------------------------------------
+ */
+@import "header";
+
+/**
+ * #15 - Info Box
+ * --------------------------------------------------
+ */
+@import "info-box";
+
+/**
+ * #16 - Invoice
+ * --------------------------------------------------
+ */
+@import "invoice";
+
+/**
+ * #17 - Labels
+ * --------------------------------------------------
+ */
+@import "labels";
+
+/**
+ * #18 - Lock Screen
+ * --------------------------------------------------
+ */
+@import "lockscreen";
+
+/**
+ * #19 - Login & Register
+ * --------------------------------------------------
+ */
+@import "login_and_register";
+
+/**
+ * #20 - Mail Box
+ * --------------------------------------------------
+ */
+@import "mailbox";
+
+/**
+ * #21 - Miscellaneous
+ * --------------------------------------------------
+ */
+@import "miscellaneous";
+
+/**
+ * #22 - Modal
+ * --------------------------------------------------
+ */
+@import "modal";
+
+/**
+ * #23 - Navs
+ * --------------------------------------------------
+ */
+@import "navs";
+
+/**
+ * #24 - Print
+ * --------------------------------------------------
+ */
+@import "print";
+
+/**
+ * #25 - Products
+ * --------------------------------------------------
+ */
+@import "products";
+
+/**
+ * #26 - Profile
+ * --------------------------------------------------
+ */
+@import "profile";
+
+/**
+ * #27 - Progress Bars
+ * --------------------------------------------------
+ */
+@import "progress-bars";
+
+/**
+ * #28 - Select2
+ * --------------------------------------------------
+ */
+@import "select2";
+
+/**
+ * #29 - Sidebar Mini
+ * --------------------------------------------------
+ */
+@import "sidebar-mini";
+
+/**
+ * #30 - Sidebar
+ * --------------------------------------------------
+ */
+@import "sidebar";
+
+/**
+ * #31 - Skin Black Light
+ * --------------------------------------------------
+ */
+@import "skin-black-light";
+
+/**
+ * #32 - Skin Black
+ * --------------------------------------------------
+ */
+@import "skin-black";
+
+/**
+ * #33 - Skin Blue Light
+ * --------------------------------------------------
+ */
+@import "skin-blue-light";
+
+/**
+ * #34 - Skin Blue
+ * --------------------------------------------------
+ */
+@import "skin-blue";
+
+/**
+ * #35 - Skin Blue Light
+ * --------------------------------------------------
+ */
+@import "skin-green-light";
+
+/**
+ * #36 - Skin Black Light
+ * --------------------------------------------------
+ */
+@import "skin-green";
+
+/**
+ * #37 - Skin Orange Light
+ * --------------------------------------------------
+ */
+@import "skin-orange-light";
+
+/**
+ * #38 - Skin Orange
+ * --------------------------------------------------
+ */
+@import "skin-orange";
+
+/**
+ * #39 - Skin Purple Light
+ * --------------------------------------------------
+ */
+@import "skin-purple-light";
+
+/**
+ * #40 - Skin Purple
+ * --------------------------------------------------
+ */
+@import "skin-purple";
+
+/**
+ * #41 - Skin Red Light
+ * --------------------------------------------------
+ */
+@import "skin-red-light";
+
+/**
+ * #42 - Skin Red
+ * --------------------------------------------------
+ */
+@import "skin-red";
+
+/**
+ * #43 - Skin Yellow Light
+ * --------------------------------------------------
+ */
+@import "skin-yellow-light";
+
+/**
+ * #44 - Skin Yellow
+ * --------------------------------------------------
+ */
+@import "skin-yellow";
+
+/**
+ * #45 - Small Box
+ * --------------------------------------------------
+ */
+@import "small-box";
+
+/**
+ * #46 - Social Widgets
+ * --------------------------------------------------
+ */
+@import "social-widgets";
+
+/**
+ * #47 - Table
+ * --------------------------------------------------
+ */
+@import "table";
+
+/**
+ * #48 - Timeline
+ * --------------------------------------------------
+ */
+@import "timeline";
+
+/**
+ * #49 - Treeview
+ * --------------------------------------------------
+ */
+@import "treeview";
+
+/**
+ * #50 - Users List
+ * --------------------------------------------------
+ */
+@import "users-list";

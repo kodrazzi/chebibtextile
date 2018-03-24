@@ -1,0 +1,33 @@
+// Labels
+// --------------------------------------------------
+
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+.label-default {
+  background-color: $gray-lte;
+  color: #444;
+}
+
+.label-danger {
+  @extend .bg-red;
+}
+
+.label-info {
+  @extend .bg-aqua;
+}
+
+.label-warning {
+  @extend .bg-yellow;
+}
+
+.label-primary {
+  @extend .bg-light-blue;
+}
+
+.label-success {
+  @extend .bg-green;
+}

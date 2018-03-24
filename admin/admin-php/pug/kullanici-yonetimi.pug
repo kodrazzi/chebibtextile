@@ -1,0 +1,218 @@
+extends include/_head
+block append head
+  -
+    var pageTitle = 'Kullanıcı Yönetimi'
+    var headTitle = pageTitle + pageTitleDesc
+block body
+  .wrapper
+    include include/_header
+    aside.main-sidebar
+      section.sidebar
+        .user-panel
+          .pull-left.image
+            img.img-circle(src='img/bahadirakca.jpg', alt='bahadirakca')
+          .pull-left.info
+            p Bahadır Akça
+            a(href='profilim.html')
+              i.fa.fa-circle.text-success
+              span Aktif
+        form.sidebar-form(action='#', method='get')
+          .input-group
+            input.form-control(type='text', name='searchform', placeholder='Arama yap...')
+            span.input-group-btn
+              button#search-btn.btn.btn-flat(type='submit', name='search')
+                i.fa.fa-search
+        ul.sidebar-menu(data-widget='tree')
+          li.header MENÜLER
+          li
+            a(href='index.html')
+              i.fa.fa-dashboard
+              span Kontrol Paneli
+          li
+            a(href='meta-favicon-logo.html')
+              i.fa.fa-globe
+              span Meta, Favicon ve Logo
+          li
+            a(href='stil-ve-scriptler.html')
+              i.fa.fa-terminal
+              span Özel Stil ve Scriptler
+          li.treeview
+            a(href='#')
+              i.fa.fa-group
+              span Kurumsal Bilgiler
+              span.pull-right-container
+                i.fa.fa-angle-left.pull-right
+            ul.treeview-menu
+              li
+                a(href='kurumsal-bilgiler.html')
+                  i.fa.fa-circle-o
+                  span Genel Bilgiler
+              li
+                a(href='kurumsal-bilgiler-hakkimizda.html')
+                  i.fa.fa-circle-o
+                  span Hakkımızda
+              li
+                a(href='kurumsal-bilgiler-vizyonumuz.html')
+                  i.fa.fa-circle-o
+                  span Vizyonumuz
+              li
+                a(href='kurumsal-bilgiler-misyonumuz.html')
+                  i.fa.fa-circle-o
+                  span Misyonumuz
+          li
+            a(href='slider.html')
+              i.fa.fa-play
+              span Slider
+          li
+            a(href='hizmetlerimiz.html')
+              i.fa.fa-th
+              span Hizmetlerimiz
+          li
+            a(href='musteri-iletileri.html')
+              i.fa.fa-commenting-o
+              span Müşteri İletileri
+          li
+            a(href='galeri.html')
+              i.fa.fa-file-image-o
+              span Galeri
+          li.treeview
+            a(href='#')
+              i.fa.fa-user
+              span Kullanıcı Yönetimi
+              span.pull-right-container
+                i.fa.fa-angle-left.pull-right
+            ul.treeview-menu
+              li.active
+                a(href='kullanici-yonetimi.html')
+                  i.fa.fa-circle-o
+                  span Kullanıcılar
+              li
+                a(href='kullanici-ekle.html')
+                  i.fa.fa-circle-o
+                  span Yeni Kullanıcı Ekle
+              li
+                a(href='profilim.html')
+                  i.fa.fa-circle-o
+                  span Profilim
+    .content-wrapper
+      section.content-header
+        h1
+          | Kullanıcı Yönetimi
+          small Ayarları
+        ol.breadcrumb
+          li
+            a(href='index.html')
+              i.fa.fa-dashboard
+              |  Kontrol Paneli
+          li.active Kullanıcı Yönetimi
+      section.content
+        .row
+          .col-sm-12.col-xs-12
+            .box.box-solid
+              form(role='form')
+                .box-header.with-border
+                  .col-sm-6.col-xs-12
+                    h3.box-title Kullanıcı Yönetimi
+                  .col-sm-6.col-xs-12.text-right
+                    a(href='kullanici-ekle.html').btn.btn-primary.ajax Yeni Kullanıcı Ekle
+                .box-body
+                  .form-group
+                    .col-xs-12
+                      table#example1.table.table-bordered.table-hover.table-striped
+                        thead
+                          tr
+                            th Adı
+                            th Soyadı
+                            th Kullanıcı Adı
+                            th E-Posta Adresi
+                            th Parolası
+                            th Yetkisi
+                            th Kayıt Tarihi
+                            th İşlemler
+                        tbody
+                          tr
+                            td Ahmet
+                            td Koyun
+                            td hmtkyn
+                            td ahmetkoyun90@gmail.com
+                            td deneme
+                            td Admin
+                            td 25/07/2017
+                            td
+                              .btn-group
+                                a.btn.btn-primary(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Görüntüle')
+                                  i.fa.fa-eye
+                                a.btn.btn-success(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Düzenle')
+                                  i.fa.fa-edit
+                                a.btn.btn-danger(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Sil')
+                                  i.fa.fa-trash
+                          tr
+                            td Ali İhsan
+                            td Suna
+                            td aisuna
+                            td aliihsansuna88@gmail.com
+                            td deneme
+                            td Admin
+                            td 25/07/2017
+                            td
+                              .btn-group
+                                a.btn.btn-primary(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Görüntüle')
+                                  i.fa.fa-eye
+                                a.btn.btn-success(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Düzenle')
+                                  i.fa.fa-edit
+                                a.btn.btn-danger(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Sil')
+                                  i.fa.fa-trash
+                          tr
+                            td Bahadır
+                            td Akça
+                            td bakca
+                            td bahadirakca@gmail.com
+                            td deneme
+                            td Admin
+                            td 25/07/2017
+                            td
+                              .btn-group
+                                a.btn.btn-primary(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Görüntüle')
+                                  i.fa.fa-eye
+                                a.btn.btn-success(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Düzenle')
+                                  i.fa.fa-edit
+                                a.btn.btn-danger(href='profilim.html', data-toggle='tooltip', data-placement='top', title='Sil')
+                                  i.fa.fa-trash
+                        tfoot
+                          tr
+                            th Adı
+                            th Soyadı
+                            th Kullanıcı Adı
+                            th E-Posta Adresi
+                            th Parolası
+                            th Yetkisi
+                            th Kayıt Tarihi
+                            th İşlemler
+                .box-footer
+                  .col-sm-6.col-xs-12
+                    p.box-title Kullanıcı Yönetimi
+                  .col-sm-6.col-xs-12.text-right
+                    a(href='kullanici-ekle.html').btn.btn-primary.ajax Yeni Kullanıcı Ekle
+    include include/_footer
+    include include/_aside-right
+    .control-sidebar-bg
+  include include/_script
+  script(type='text/javascript').
+    $.widget.bridge('uibutton', $.ui.button);
+  script(type='text/javascript').
+    $(function () {
+    $('#example1').DataTable()
+    })
+  script(type='text/javascript').
+    $(document).ajaxStart(function () {
+    Pace.restart()
+    })
+  script.
+    $.sessionTimeout({
+    message: 'Oturumunuz bir dakika içinde kilitlenecektir.',
+    keepAliveUrl: 'index.html',
+    logoutUrl: 'girisyap.html',
+    redirUrl: 'oturum-kilidi.html',
+    warnAfter: 3000,
+    redirAfter: 5000
+    });
