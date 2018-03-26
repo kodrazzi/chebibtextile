@@ -1,9 +1,11 @@
+<?php require_once('./config/config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="tr">
 
 <head>
   <!-- Title -->
-  <title>Anasayfa | Chebib Tekstil</title>
+  <title><?php echo $lang['pageHome'] . " | " . $lang['title']; ?></title>
   <!-- Meta -->
   <?php require_once('./components/meta.php'); ?>
   <!-- Stylesheet -->
@@ -170,7 +172,7 @@
               <div class="text-fact">
                 <h4 class="title">CHEBIB
                   <br>TEXTILE</h4>
-                <a href="contact.html#map" class="comment-reply" style="word-wrap:break-word;">ADRESİMİZİ GÖRMEK İÇİN
+                <a href="iletisim.php#map" class="comment-reply" style="word-wrap:break-word;">ADRESİMİZİ GÖRMEK İÇİN
                   <i class="fa fa-chevron-right"></i>
                 </a>
               </div>
@@ -196,7 +198,7 @@
               <div class="text-fact">
                 <h4 class="title">YILLIK
                   <br>TECRÜBE</h4>
-                <a href="overview.html" class="comment-reply">DAHA FAZLASI İÇİN
+                <a href="hakkimizda.php" class="comment-reply">DAHA FAZLASI İÇİN
                   <i class="fa fa-chevron-right"></i>
                 </a>
               </div>

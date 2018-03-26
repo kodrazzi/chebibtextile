@@ -1,3 +1,4 @@
+<?php require_once('./config/config.php'); ?>
 <footer>
   <!-- Footer -->
   <div class="footer">
@@ -10,7 +11,7 @@
               <h5 class="title">1945 yılından beri süregelen tecrübemizle,</h5>
               <p>Alanında uzman kadromuzla, her zaman hizmetinizdeyiz.</p>
               <div class="map">
-                <a href="contact.html#map">
+                <a href="iletisim.php#map">
                   <i class="fa fa-map-marker"></i>Adresimizi haritada görmek için</a>
               </div>
             </div>
@@ -106,7 +107,7 @@
             <div class="copyright">
               <a href="http://www.tarzyazilim.com.tr/" target="_blank">TARZ
                 <img style="margin-bottom:5px;" src="./assets/img/tarz-logo-15.png"> YAZILIM</a>
-              <p>CHEBIB TEXTILE © 2018</p>
+              <p>CHEBIB TEKSTIL © 2018</p>
             </div>
           </div>
           <!-- /.container-bottom -->

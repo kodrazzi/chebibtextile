@@ -1,9 +1,11 @@
+<?php require_once('./config/config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="tr">
 
 <head>
   <!-- Title -->
-  <title>Hakkımızda | Chebib Tekstil</title>
+  <title><?php echo $lang['pageAboutUs'] . " | " . $lang['title']; ?></title>
   <!-- Meta -->
   <?php require_once('./components/meta.php'); ?>
   <!-- Stylesheet -->
@@ -25,11 +27,11 @@
             <div class="breadcrumbs">
               <ul>
                 <li class="home">
-                  <a href="index.html">Anasayfa</a>
+                  <a href="index.php">Anasayfa</a>
                 </li>
                 <li>
                   <!-- class="home" -->
-                  <a href="overview.html">Hakkımızda</a>
+                  <a href="hakkimizda.php">Hakkımızda</a>
                 </li>
                 <!-- <li>Case</li> -->
               </ul>
@@ -211,89 +213,106 @@
                 </div>
               </div>
               <div class="choose-us">
-                <h4 class="header-photos">Tesislerimizden Fotograflar:</h4>
+                <h4 class="header-photos">Konfeksiyon:</h4>
                 <div class="flat-icon-post margin-top-31">
                   <div class="flat-icon">
-                    <div class="post" style="overflow:hidden;">
+                    <div class="post popup-gallery">
                       <div class="item">
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/2.png" alt="image">
-                            <div class="overlay border-radius-3 border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/5.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/1.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/2.png" title="01">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/2.png" alt="01">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/5.png" title="02">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/5.png" alt="02">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/1.png" title="03">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/1.png" alt="03">
+                        </a>
                       </div>
                       <div class="item">
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow ">
-                            <img class="border-radius-3" src="./assets/img/about/home1/10.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow ">
-                            <img class="border-radius-3" src="./assets/img/about/home1/11.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/9.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/10.png" title="04">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/10.png" alt="04">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/11.png" title="05">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/11.png" alt="05">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/9.png" title="06">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/9.png" alt="06">
+                        </a>
                       </div>
                       <div class="item">
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/7.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/8.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/4.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="07">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="08">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="08">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="09">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="09">
+                        </a>
                       </div>
                       <div class="item">
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/6.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/12.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
-                        <div class="iconbox icon-left v1 margin-0">
-                          <div class="thumb box-shadow">
-                            <img class="border-radius-3" src="./assets/img/about/home1/3.png" alt="image">
-                            <div class="overlay border-radius-3"></div>
-                          </div>
-                        </div>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/6.png" title="10">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/6.png" alt="10">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/12.png" title="11">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/12.png" alt="11">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="12">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="12">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="choose-us">
+                <h4 class="header-photos">Baskı:</h4>
+                <div class="flat-icon-post margin-top-31">
+                  <div class="flat-icon">
+                    <div class="post popup-gallery">
+                      <div class="item">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/2.png" title="01">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/2.png" alt="01">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/5.png" title="02">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/5.png" alt="02">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/1.png" title="03">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/1.png" alt="03">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/10.png" title="04">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/10.png" alt="04">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/11.png" title="05">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/11.png" alt="05">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/9.png" title="06">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/9.png" alt="06">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="07">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="08">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="08">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="09">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="09">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/6.png" title="10">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/6.png" alt="10">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/12.png" title="11">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/12.png" alt="11">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="12">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="12">
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -314,6 +333,28 @@
   <?php require_once('./components/footer.php'); ?>
   <!-- Javascript -->
   <?php require_once('./components/scripts.php'); ?>
+
+  <script>
+    $(document).ready(function () {
+      $('.popup-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+          titleSrc: function (item) {
+            return item.el.attr('title') + '<small>by Chebib Tekstil</small>';
+          }
+        }
+      });
+    });
+  </script>
 
 </body>
 

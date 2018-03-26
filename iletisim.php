@@ -1,9 +1,11 @@
+<?php require_once('./config/config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="tr">
 
 <head>
   <!-- Title -->
-  <title>İletişim | Chebib Tekstil</title>
+  <title><?php echo $lang['pageContact'] . " | " . $lang['title']; ?></title>
   <!-- Meta -->
   <?php require_once('./components/meta.php'); ?>
   <!-- Stylesheet -->
@@ -25,11 +27,11 @@
             <div class="breadcrumbs">
               <ul>
                 <li class="home">
-                  <a href="index.html">Anasayfa</a>
+                  <a href="index.php">Anasayfa</a>
                 </li>
                 <li>
                   <!-- class="home" -->
-                  <a href="overview.html">Hakkımızda</a>
+                  <a href="hakkimizda.php">Hakkımızda</a>
                 </li>
                 <!-- <li>Case</li> -->
               </ul>

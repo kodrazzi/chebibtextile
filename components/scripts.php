@@ -17,6 +17,9 @@
 <script type="text/javascript" src="./assets/js/jquery.tweet.min.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 <script type="text/javascript" src="./assets/js/main.js"></script>
+<script type="text/javascript" src="./assets/js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHtWltCIolOgzpMEfi_GVZZHCkrXH10SM&region=TR"></script>
+<script type="text/javascript" src="./assets/js/gmap3.min.js"></script>
 <script type="text/javascript" src="./assets/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript" src="./assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="./assets/revolution/js/slider.js"></script>

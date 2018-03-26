@@ -1,3 +1,4 @@
+<?php require_once('./config/config.php'); ?>
 <!-- Header Top -->
 <div class="header-inner-pages">
   <div class="top">
@@ -7,12 +8,12 @@
           <ul class="flat-information">
             <li class="phone">
               <a href="#" title="Phone number">
-                <i>Telefon: +90 534 771 7976</i>
+                <i><?php echo $lang['phone']; ?>: +90 534 771 7976</i>
               </a>
             </li>
             <li class="email">
               <a href="#" title="Email address">
-                <i>Email: info@chebibtekstil.com</i>
+                <i><?php echo $lang['email']; ?>: info@chebibtekstil.com</i>
               </a>
             </li>
           </ul>
@@ -77,6 +78,12 @@
             </li>
             <li class="menu-link">
               <a href="iletisim.php">İLETİŞİM</a>
+            </li>
+            <li class="menu-link">
+              <a href="index.php?lang=en"><img class="menu-link_flag" src="./../assets/img/lang/en.png" alt="lang-en"></a>
+            </li>
+            <li class="menu-link">
+              <a href="index.php?lang=tr"><img class="menu-link_flag" src="./../assets/img/lang/tr.png" alt="lang-tr"></a>
             </li>
           </ul>
         </nav>
