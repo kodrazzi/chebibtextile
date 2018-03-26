@@ -27,11 +27,11 @@
             <div class="breadcrumbs">
               <ul>
                 <li class="home">
-                  <a href="index.php">Anasayfa</a>
+                  <a href="index.php"><?php echo $lang['pageHome']; ?></a>
                 </li>
                 <li>
                   <!-- class="home" -->
-                  <a href="hakkimizda.php">Hakkımızda</a>
+                  <a href="hizmet-detay.php"><?php echo $lang['pageOurServices']; ?></a>
                 </li>
                 <!-- <li>Case</li> -->
               </ul>
@@ -53,7 +53,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title-section style1">
-              <h3 class="title">Ürün Geliştirme</h3>
+              <h3 class="title"><?php echo $lang['ourServices-title']; ?></h3>
             </div>
           </div>
         </div>
@@ -74,32 +74,32 @@
             <div class="post-case-single v1">
               <div class="content-post v1">
                 <div class="title-post">
-                  <h4 class="title">Ürünlerin Planlanması</h4>
-                  <p>Müşterilerin istekleri doğrultusunda alanlarında uzman kadrolarımızla, en yeni trenlere uygun şekilde ürünlerimiz planlanmakta ve tasarlanmaktadır. Bunu sağlamak için, siz müşterilerimizin ihtiyaçlarını tespit ederek ve bu ihtiyaçları karşılayacak ürünler üretmekteyiz. Ürün planlama, yeni ürünlerin seçimi, varolan ürünleri günümüz ihtaçlarını karşılar hale getirmek ve yeni trendlere uygun değişiklikler yapmayı kapsamaktadır. </p>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-1']; ?></h4>
+                  <p><?php echo $lang['ourServices-subtitle-1-text']; ?></p>
                 </div>
               </div>
               <div class="content-post v2">
                 <div class="title-post">
-                  <h4 class="title">Ürün Yelpazesi</h4>
-                  <p>Firmamız, siz müşterilerimizin farklı ihtiyaçlarını karşılayan, farklı büyüklüklerde, farklı stil ve renklerde, geniş ürün çeşitliliğini sizlere sunmaktadır.</p>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-2']; ?></h4>
+                  <p><?php echo $lang['ourServices-subtitle-2-text']; ?></p>
                 </div>
               </div>
               <div class="content-post v3">
                 <div class="title-post">
-                  <h4 class="title">Ürün Tasarımı</h4>
-                  <p>Chebib Textile olarak, tasarım konusunda uzman kadromuzla hazıladığımız ürünler en başarılı şekilde siz müşterilerimizin isteklerini ve ihtiyaçlarını karşılamaktadır.</p>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-3']; ?></h4>
+                  <p><?php echo $lang['ourServices-subtitle-3-text']; ?></p>
                 </div>
                 <div class="list-post">
-                  <h4 class="title">Siz Müşterilerimiz için:</h4>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-4']; ?></h4>
                 </div>
                 <div class="list-post">
-                  <h4 class="title">Fonksiyonel</h4>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-4-list-1']; ?></h4>
                 </div>
                 <div class="list-post">
-                  <h4 class="title">Çekici</h4>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-4-list-2']; ?></h4>
                 </div>
                 <div class="list-post">
-                  <h4 class="title">Kullanımı Kolay ürünler tasarlıyoruz...</h4>
+                  <h4 class="title"><?php echo $lang['ourServices-subtitle-4-list-3']; ?></h4>
                 </div>
               </div>
             </div>

@@ -36,15 +36,15 @@
           <!-- LAYERS -->
 
           <!-- LAYER NR. 12 -->
-          <div class="tp-caption title-slide" id="slide-3047-layer-1" data-x="['center','center','center','center']" data-hoffset="['-208','-100','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-60']" data-fontsize="['65','65','45','30']" data-lineheight="['65','65','45','35']" data-fontweight="['700','700','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;text-transform:left;">1945' den beri,
-            <br>Tekstil imalatçısıyız.
+          <div class="tp-caption title-slide" id="slide-3047-layer-1" data-x="['center','center','center','center']" data-hoffset="['-208','-100','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-60']" data-fontsize="['65','65','45','30']" data-lineheight="['65','65','45','35']" data-fontweight="['700','700','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;text-transform:left;"><?php echo $lang['hero-slogan-1-1']; ?>
+            <br><?php echo $lang['hero-slogan-1-2']; ?>
           </div>
 
           <!-- LAYER NR. 13 -->
-          <div class="tp-caption sub-title" id="slide-3047-layer-4" data-x="['center','center','center','center']" data-hoffset="['-220','-120','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['29','29','29','0']" data-fontsize="['16',16','16','14']" data-fontweight="['600','600','600','600']" data-width="660" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: nowrap;text-transform:left; ">Sizin isteklerinize göre, her çeşit kumaştan harika ürünler yapıyoruz.
+          <div class="tp-caption sub-title" id="slide-3047-layer-4" data-x="['center','center','center','center']" data-hoffset="['-220','-120','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['29','29','29','0']" data-fontsize="['16',16','16','14']" data-fontweight="['600','600','600','600']" data-width="660" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: nowrap;text-transform:left; "><?php echo $lang['hero-slogan-1-3']; ?>
           </div>
 
-          <a href="#" target="_self" class="tp-caption flat-button-slider bg-orange bg-gold border-gold" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-x="['center','center','center','center']" data-hoffset="['-453','-353','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['134','134','134','50']" data-hoffset="-75" data-voffset="83" data-width="['210']" data-height="['55']">CHEBIB TEXTILE
+          <a href="#" target="_self" class="tp-caption flat-button-slider bg-orange bg-gold border-gold" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-x="['center','center','center','center']" data-hoffset="['-453','-353','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['134','134','134','50']" data-hoffset="-75" data-voffset="83" data-width="['210']" data-height="['55']"><?php echo $lang['hero-button']; ?>
             <i class="fa fa-chevron-right"></i>
           </a>
           <!-- END LAYER LINK -->
@@ -78,8 +78,8 @@
 
 
           <!-- LAYER NR. 12 -->
-          <div class="tp-caption title-slide-style2" id="slide-3047-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-57','-57','-57','-50']" data-fontsize="['50','50','35','20']" data-lineheight="['68','68','40','22']" data-width="none" data-fontweight="700" data-color="#fff" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;text-transform:left;">Lider, yenilikçi ve çözüm odaklı,
-            <br>CHEBIB Textile</div>
+          <div class="tp-caption title-slide-style2" id="slide-3047-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-57','-57','-57','-50']" data-fontsize="['50','50','35','20']" data-lineheight="['68','68','40','22']" data-width="none" data-fontweight="700" data-color="#fff" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;text-transform:left;"><?php echo $lang['hero-slogan-2-1']; ?>
+            <br><?php echo $lang['hero-slogan-2-2']; ?></div>
         </li>
       </ul>
     </div>
@@ -106,9 +106,9 @@
                         </div>
                         <div class="icon-post">
                           <div class="box-title">
-                            <h4 class="title">PLANLAMA,STRATEJİ GELİŞTİRME VE UYGULAMA</h4>
+                            <h4 class="title"><?php echo $lang['section-planning-title']; ?></h4>
                             <div class="box-content">
-                              <p>Alanında uzman kadromuzla arzu ettiğiniz ürünleri hızlı ve kaliteli şekilde üretiyoruz.</p>
+                              <p><?php echo $lang['section-planning-text']; ?></p>
                             </div>
                           </div>
                         </div>
@@ -124,9 +124,9 @@
                         </div>
                         <div class="icon-post">
                           <div class="box-title">
-                            <h4 class="title">HESAPLI ÇÖZÜMLER VE PİYASA ANALİZİ</h4>
+                            <h4 class="title"><?php echo $lang['section-financal-title']; ?></h4>
                             <div class="box-content">
-                              <p>Kaliteden ödün vermeden, en uygun fiyatları siz müşterilerimize sunmaktayız.</p>
+                              <p><?php echo $lang['section-financal-text']; ?></p>
                             </div>
                           </div>
                         </div>
@@ -142,9 +142,9 @@
                         </div>
                         <div class="icon-post">
                           <div class="box-title">
-                            <h4 class="title">ULUSLARARASI TİCARET</h4>
+                            <h4 class="title"><?php echo $lang['section-commerce-title']; ?></h4>
                             <div class="box-content">
-                              <p>Uluslararası ticaret belgelerine ve deneyimine sahip firmamız, birçok ülkeye ihracat yapabilmektedir.</p>
+                              <p><?php echo $lang['section-commerce-text']; ?></p>
                             </div>
                           </div>
                         </div>
@@ -171,8 +171,8 @@
               </div>
               <div class="text-fact">
                 <h4 class="title">CHEBIB
-                  <br>TEXTILE</h4>
-                <a href="iletisim.php#map" class="comment-reply" style="word-wrap:break-word;">ADRESİMİZİ GÖRMEK İÇİN
+                  <br><?php echo $lang['section-info-1-1']; ?></h4>
+                <a href="iletisim.php#map" class="comment-reply" style="word-wrap:break-word;"><?php echo $lang['section-info-1-2']; ?>
                   <i class="fa fa-chevron-right"></i>
                 </a>
               </div>
@@ -180,12 +180,11 @@
 
             <div class="iteam-fact v2">
               <div class="num-fact">
-                <p>+1B</p>
+                <p>+1<?php echo $lang['section-info-2-1']; ?></p>
               </div>
               <div class="text-fact">
-                <h4 class="title">BAŞARILI
-                  <br>PROJE</h4>
-                <a href="#" class="comment-reply">TÜMÜNÜ GÖR
+                <h4 class="title"><?php echo $lang['section-info-2-2']; ?></h4>
+                <a href="#" class="comment-reply"><?php echo $lang['section-info-2-3']; ?>
                   <i class="fa fa-chevron-right"></i>
                 </a>
               </div>
@@ -196,9 +195,8 @@
                 <p>73</p>
               </div>
               <div class="text-fact">
-                <h4 class="title">YILLIK
-                  <br>TECRÜBE</h4>
-                <a href="hakkimizda.php" class="comment-reply">DAHA FAZLASI İÇİN
+                <h4 class="title"><?php echo $lang['section-info-3-1']; ?></h4>
+                <a href="hakkimizda.php" class="comment-reply"><?php echo $lang['section-info-3-2']; ?>
                   <i class="fa fa-chevron-right"></i>
                 </a>
               </div>
@@ -216,7 +214,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title-section style1">
-              <h3 class="title">Çalışma Alanlarımız</h3>
+              <h3 class="title"><?php echo $lang['section-workingArea-title']; ?></h3>
             </div>
           </div>
         </div>
@@ -226,22 +224,22 @@
             <div class="flat-portfolio v1">
               <ul class="portfolio-filter">
                 <li class="active v1 bg-gold-before menu-link">
-                  <a class="title-edited" data-filter="*" href="#">Hepsi</a>
+                  <a class="title-edited" data-filter="*" href="#"><?php echo $lang['section-workingArea-all']; ?></a>
                 </li>
                 <li class="bg-gold-before menu-link">
-                  <a class="title-edited" data-filter=".tekstil" href="#">Tekstil</a>
+                  <a class="title-edited" data-filter=".tekstil" href="#"><?php echo $lang['section-workingArea-1']; ?></a>
                 </li>
                 <li class="bg-gold-before menu-link">
-                  <a class="title-edited" data-filter=".hazir" href="#">Hazır Giyim</a>
+                  <a class="title-edited" data-filter=".hazir" href="#"><?php echo $lang['section-workingArea-2']; ?></a>
                 </li>
                 <li class="bg-gold-before menu-link">
-                  <a class="title-edited" data-filter=".ic" href="#">İç Giyim</a>
+                  <a class="title-edited" data-filter=".ic" href="#"><?php echo $lang['section-workingArea-3']; ?></a>
                 </li>
                 <li class="bg-gold-before menu-link">
-                  <a class="title-edited" data-filter=".is" href="#">İş Kıyafetleri</a>
+                  <a class="title-edited" data-filter=".is" href="#"><?php echo $lang['section-workingArea-4']; ?></a>
                 </li>
                 <li class="bg-gold-before menu-link">
-                  <a class="title-edited" data-filter=".baski" href="#">Baskı İşlemleri</a>
+                  <a class="title-edited" data-filter=".baski" href="#"><?php echo $lang['section-workingArea-5']; ?></a>
                 </li>
               </ul>
               <!-- /.project-filter -->
@@ -253,8 +251,8 @@
                       <img src="./assets/img/portfolio/home1/1.png" alt="image">
                     </div>
                     <div class="link-v1">
-                      <h5 class="title title-edited color-gold">Hazır Giyim</h5>
-                      <p>Hazır giyim üretiminde öncü kuruluş</p>
+                      <h5 class="title title-edited color-gold"><?php echo $lang['section-workingArea-1']; ?></h5>
+                      <p><?php echo $lang['section-workingArea-1-text']; ?></p>
                     </div>
                   </div>
                 </div>
@@ -265,8 +263,8 @@
                       <img src="./assets/img/portfolio/home1/2.png" alt="image">
                     </div>
                     <div class="link-v1">
-                      <h5 class="title title-edited color-gold">İç Giyim</h5>
-                      <p>İç giyimde tüm yenilikleri ve trendleri sizlere sunuyoruz.</p>
+                      <h5 class="title title-edited color-gold"><?php echo $lang['section-workingArea-3']; ?></h5>
+                      <p><?php echo $lang['section-workingArea-3-text']; ?></p>
                     </div>
                   </div>
                 </div>
@@ -277,8 +275,8 @@
                       <img src="./assets/img/portfolio/home1/3.png" alt="image">
                     </div>
                     <div class="link-v1">
-                      <h5 class="title title-edited color-gold">İş Kıyafetleri</h5>
-                      <p>İş güvenliğini ön planda tutan iş kıyafetleri üretiyoruz.</p>
+                      <h5 class="title title-edited color-gold"><?php echo $lang['section-workingArea-4']; ?></h5>
+                      <p><?php echo $lang['section-workingArea-4-text']; ?></p>
                     </div>
                   </div>
                 </div>
@@ -289,8 +287,8 @@
                       <img src="./assets/img/portfolio/home1/4.png" alt="image">
                     </div>
                     <div class="link-v1">
-                      <h5 class="title title-edited color-gold">Baskı İşlemleri</h5>
-                      <p>Dekoratif, logo vb amaçlarla ürünleri, bölgesel olarak renklendiriyoruz.</p>
+                      <h5 class="title title-edited color-gold"><?php echo $lang['section-workingArea-5']; ?></h5>
+                      <p><?php echo $lang['section-workingArea-5-text']; ?></p>
                     </div>
                   </div>
                 </div>
@@ -315,9 +313,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title-section style1">
-              <p>Bizden talep ettiğiniz ürünü, birlikte tasarlayarak;</p>
-              <p>
-                <span class="color-gold">satışa uygun halde</span> size teslim ediyoruz.</p>
+              <?php echo $lang['parallax-slogan']; ?>
             </div>
           </div>
         </div>
@@ -354,7 +350,7 @@
     </div>
   </section>
 
-  <section class="flat-row">
+<!--   <section class="flat-row">
     <div class="flat-choose-us flat-news v1">
       <div class="flat-silder">
         <div class="container">
@@ -471,7 +467,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Footer Section -->
   <?php require_once('./components/footer.php'); ?>
   <!-- Javascript -->

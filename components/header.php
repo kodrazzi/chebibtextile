@@ -8,7 +8,7 @@
           <ul class="flat-information">
             <li class="phone">
               <a href="#" title="Phone number">
-                <i><?php echo $lang['phone']; ?>: +90 534 771 7976</i>
+                <i><?php echo $lang['phone']; ?>: +90 344 236 66 72</i>
               </a>
             </li>
             <li class="email">
@@ -68,16 +68,16 @@
         <nav id="mainnav" class="mainnav">
           <ul class="menu">
             <li class="home">
-              <a href="index.php">ANASAYFA</a>
+              <a href="index.php"><?php echo $lang['home-page']; ?></a>
             </li>
             <li class="menu-link">
-              <a href="hakkimizda.php">HAKKIMIZDA</a>
+              <a href="hakkimizda.php"><?php echo $lang['aboutUs-page']; ?></a>
             </li>
             <li class="menu-link">
-              <a href="hizmet-detay.php">HİZMETLERİMİZ</a>
+              <a href="hizmet-detay.php"><?php echo $lang['ourServices-page']; ?></a>
             </li>
             <li class="menu-link">
-              <a href="iletisim.php">İLETİŞİM</a>
+              <a href="iletisim.php"><?php echo $lang['contact-page']; ?></a>
             </li>
             <li class="menu-link">
               <a href="index.php?lang=en"><img class="menu-link_flag" src="./../assets/img/lang/en.png" alt="lang-en"></a>

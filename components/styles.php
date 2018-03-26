@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
 <link rel="stylesheet" type="text/css" href="./assets/revolution/css/layers.css">
 <link rel="stylesheet" type="text/css" href="./assets/revolution/css/settings.css">

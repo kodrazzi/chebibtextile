@@ -5,7 +5,9 @@
 
 <head>
   <!-- Title -->
-  <title><?php echo $lang['pageAboutUs'] . " | " . $lang['title']; ?></title>
+  <title>
+    <?php echo $lang['pageAboutUs'] . " | " . $lang['title']; ?>
+  </title>
   <!-- Meta -->
   <?php require_once('./components/meta.php'); ?>
   <!-- Stylesheet -->
@@ -27,11 +29,15 @@
             <div class="breadcrumbs">
               <ul>
                 <li class="home">
-                  <a href="index.php">Anasayfa</a>
+                  <a href="index.php">
+                    <?php echo $lang['pageHome']; ?>
+                  </a>
                 </li>
                 <li>
                   <!-- class="home" -->
-                  <a href="hakkimizda.php">Hakkımızda</a>
+                  <a href="hakkimizda.php">
+                    <?php echo $lang['pageAboutUs']; ?>
+                  </a>
                 </li>
                 <!-- <li>Case</li> -->
               </ul>
@@ -53,7 +59,9 @@
         <div class="row">
           <div id="tanitim" class="col-md-12">
             <div class="title-section style1">
-              <h3 class="title" style="text-align:center;">Şirketimiz Hakkında</h3>
+              <h3 class="title" style="text-align:center;">
+                <?php echo $lang['aboutUs-title']; ?>
+              </h3>
             </div>
           </div>
           <div class="wrap-main-post">
@@ -62,22 +70,34 @@
                 <div class="widget widget-categories team">
                   <ul class="categories">
                     <li>
-                      <a href="#tanitim">Tanıtım</a>
+                      <a href="#tanitim">
+                        <?php echo $lang['aboutUs-sidebar-1']; ?>
+                      </a>
                     </li>
                     <li>
-                      <a href="#textile">Chebib Textile</a>
+                      <a href="#textile">
+                        <?php echo $lang['aboutUs-sidebar-2']; ?>
+                      </a>
                     </li>
                     <li>
-                      <a href="#printing">Chebib Printing</a>
+                      <a href="#printing">
+                        <?php echo $lang['aboutUs-sidebar-3']; ?>
+                      </a>
                     </li>
                     <li>
-                      <a href="#real-estate">Chebib Real-Estate</a>
+                      <a href="#real-estate">
+                        <?php echo $lang['aboutUs-sidebar-4']; ?>
+                      </a>
                     </li>
                     <li>
-                      <a href="#goals">Hedeflerimiz</a>
+                      <a href="#goals">
+                        <?php echo $lang['aboutUs-sidebar-5']; ?>
+                      </a>
                     </li>
                     <li>
-                      <a href="#photos">Foto Galeri</a>
+                      <a href="#photos">
+                        <?php echo $lang['aboutUs-sidebar-6']; ?>
+                      </a>
                     </li>
                     <!-- 
                                             <li>
@@ -144,76 +164,143 @@
                                     </div> -->
                 <div class="content">
                   <!-- <h4 class="title">We are help you to grow your business</h4> -->
-                  <p>Sevgili Müşterilerimiz,</p>
-                  <p>Chebib tekstil 1945 yılından bu yana tekstil sektöründe üretim yapmakta olup, tekstil alanında tecrübeli güvenilir ve köklü bir firmadır.</p>
-                  <p>Chebib Ailesi, Asya, Afrika ve Orta Doğu'da bulunan farklı iş zincirlerinden oluşan bir grup şirketidir.</p>
-                  <p>Temel olarak, firmamız Chebib Ailesi oğulları tarafından bir Genel Müdür altında çalışmaktadır:</p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-1']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-2']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-3']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-4']; ?>
+                  </p>
                   <p>
                     <strong>Yahya Chebib</strong>
                   </p>
-                  <p>Chebib Ailesi olarak, Suriye'de meydana gelen korkunç koşullar nedeniyle, tesislerimizi yeni adresimize taşıdık.</p>
-                  <p>Chebib Textile olarak Tekstil endüstrisinde işimizi sürdürüyoruz.</p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-5']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-6']; ?>
+                  </p>
                   <div class="post post-list">
                     <div class="box" style="width:auto !important;">
-                      <p class="title-top">The Chebib Group olarak üç sektörde hizmet vermekteyiz :</p>
+                      <p class="title-top">
+                        <?php echo $lang['aboutUs-content-7']; ?>
+                      </p>
                       <div class="list">
                         <p>
-                          <strong>Chebib Textile</strong> tekstil alanında hizmet vermektedir.</p>
+                          <?php echo $lang['aboutUs-content-8']; ?>
+                        </p>
                         <p>
-                          <strong>Chebib Printing</strong> giysiler ve kumaşlar alanında hizmet vermektedir.</p>
+                          <?php echo $lang['aboutUs-content-9']; ?>
+                        </p>
                         <p>
-                          <strong>Chebib Real-Estate</strong> emlakve gayrimenkul alanında hizmet vermektedir.</p>
+                          <?php echo $lang['aboutUs-content-10']; ?>
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <p>Yukarıdaki işlemlerin kısa bir açıklaması:</p>
-                  <p>Tekstil endüstrisi, ipliklerle başlayan ve hazır giyim ürünleri veya kumaşlarla sonuçlanan komple bir süreçtir. Bu işlemler örme, boyama, terbiye, kesme, dikiş ve paketleme işlemlerine dayanmaktadır.</p>
-                  <p>Bu süreçleri, Avrupa'daki Engelbert-Strauss, Frankie Garage, Alpha Industries gibi çok tanınmış firmalar için ihracatçı ve taşeron olarak üretim hatlarımızda yürütmekteyiz. Puma AG, C & A, Tchibo, Palco-Schiesser ve adını burada sayamadığımız bir çok kaliteli markayla çalışmaktayız.</p>
-                  <p>Ürettiğimiz ürünleri Almanya, İtalya, Rusya ve Kanada gibi ülkelere ihraç etmekteyiz.</p>
-                  <p>Baskı süreci, hazır giyim ve kumaşlardaki tekstil baskıları için eksiksiz bir baskı evidir. Su bazlı, reaktif boyalar gibi en iyi maddeleri ve yardımcıları kullanıyoruz.</p>
-                  <p id="textile">Gayrimenkul şirketimiz kiralama, kira ve satış alanlarında hizmet vermektedir.</p>
-                  <p>Daha fazla bilgi için lütfen bizimle iletişime geçmekten çekinmeyin.</p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-11']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-12']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-13']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-14']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-15']; ?>
+                  </p>
+                  <p id="textile">
+                    <?php echo $lang['aboutUs-content-16']; ?>
+                  </p>
+                  <p>
+                    <?php echo $lang['aboutUs-content-17']; ?>
+                  </p>
                 </div>
                 <div class="content v2">
-                  <h4 class="title">Chebib Textil</h4>
-                  <p class="v1">Suriyeli tekstil şirketi, ipliklerle başlayan ve tam hazır giyim eşyası ile tamamlanan komple bir zincirdir. Dikey işlem örme, boyama, terbiye, kesme, dikiş ve paketleme işlemlerine dayanmaktadır.</p>
+                  <h4 class="title">
+                    <?php echo $lang['aboutUs-sidebar-2']; ?>
+                  </h4>
+                  <p class="v1">
+                    <?php echo $lang['aboutUs-sidebar-2-text-1']; ?>
+                  </p>
                   <div class="post post-list">
                     <div class="box" style="width:auto !important;">
-                      <p class="title-top">K. Maraş'ta bulunan şirketimiz bu alanlarda hizmet vermektedir:</p>
+                      <p class="title-top">
+                        <?php echo $lang['aboutUs-sidebar-2-text-2']; ?>
+                      </p>
                       <div class="list">
-                        <p>Tasarım deseni</p>
-                        <p>Laboratuvar testleri</p>
-                        <p>Kalite kontrol AQL 5.0 ve 2.5</p>
-                        <p id="printing">Kesme</p>
-                        <p>Dikiş</p>
-                        <p>Paketleme</p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-2-list-1']; ?>
+                        </p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-2-list-2']; ?>
+                        </p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-2-list-3']; ?>
+                        </p>
+                        <p id="printing">
+                          <?php echo $lang['aboutUs-sidebar-2-list-4']; ?>
+                        </p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-2-list-5']; ?>
+                        </p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-2-list-6']; ?>
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div id="real-estate" class="content v2">
-                  <h4 class="title">Chebib Printing</h4>
-                  <p id="goals" class="v1">Baskı Şirketi, Gaziantep ve K. Maraş'taki hazır giyim ve kumaş üzerine her türlü tekstil baskılarını yapmak için tam donanımlı bir basımevidir..</p>
+                  <h4 class="title">
+                    <?php echo $lang['aboutUs-sidebar-3']; ?>
+                  </h4>
+                  <p id="goals" class="v1">
+                    <?php echo $lang['aboutUs-sidebar-3']; ?>
+                  </p>
                 </div>
                 <div class="content v2">
-                  <h4 class="title">Chebib Real-Estate</h4>
-                  <p class="v1">Dubai'de hizmet vermektedir.</p>
+                  <h4 class="title">
+                    <?php echo $lang['aboutUs-sidebar-4']; ?>
+                  </h4>
+                  <p class="v1">
+                    <?php echo $lang['aboutUs-sidebar-4-text']; ?>
+                  </p>
                 </div>
                 <div class="content v2">
                   <div class="post post-list">
                     <div class="box" style="width:auto !important;">
-                      <h4 class="title">Gelecek Yatırım Hedeflerimiz :</h4>
+                      <h4 class="title">
+                        <?php echo $lang['aboutUs-sidebar-5-title']; ?>
+                      </h4>
                       <div class="list">
-                        <p>Örgü Fabrikası</p>
-                        <p id="photos">Bitirme Hatları</p>
-                        <p>Boyahane</p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-5-list-1']; ?>
+                        </p>
+                        <p id="photos">
+                          <?php echo $lang['aboutUs-sidebar-5-list-2']; ?>
+                        </p>
+                        <p>
+                          <?php echo $lang['aboutUs-sidebar-5-list-3']; ?>
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="choose-us">
-                <h4 class="header-photos">Konfeksiyon:</h4>
+                <h4 class="header-photos">
+                  <?php echo $lang['aboutUs-sidebar-6-textile']; ?>
+                </h4>
                 <div class="flat-icon-post margin-top-31">
                   <div class="flat-icon">
                     <div class="post popup-gallery">
@@ -221,44 +308,30 @@
                         <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/2.png" title="01">
                           <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/2.png" alt="01">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/5.png" title="02">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/5.png" alt="02">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/6.png" title="02">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/6.png" alt="02">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/1.png" title="03">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/1.png" alt="03">
-                        </a>
-                      </div>
-                      <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/10.png" title="04">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/10.png" alt="04">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/11.png" title="05">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/11.png" alt="05">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/9.png" title="06">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/9.png" alt="06">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/12.png" title="03">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/12.png" alt="03">
                         </a>
                       </div>
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="07">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="07">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/9.png" title="04">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/9.png" alt="04">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="08">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="08">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="05">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="05">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="09">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="09">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="06">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="06">
                         </a>
                       </div>
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/6.png" title="10">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/6.png" alt="10">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="07">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/12.png" title="11">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/12.png" alt="11">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="12">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="12">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="08">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="08">
                         </a>
                       </div>
                     </div>
@@ -266,52 +339,37 @@
                 </div>
               </div>
               <div class="choose-us">
-                <h4 class="header-photos">Baskı:</h4>
+                <h4 class="header-photos">
+                  <?php echo $lang['aboutUs-sidebar-6-printing']; ?>
+                </h4>
                 <div class="flat-icon-post margin-top-31">
                   <div class="flat-icon">
                     <div class="post popup-gallery">
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/2.png" title="01">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/2.png" alt="01">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/1.png" title="09">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/1.png" alt="09">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/5.png" title="02">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/5.png" alt="02">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/10.png" title="10">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/10.png" alt="10">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/1.png" title="03">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/1.png" alt="03">
-                        </a>
-                      </div>
-                      <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/10.png" title="04">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/10.png" alt="04">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/11.png" title="05">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/11.png" alt="05">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/9.png" title="06">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/9.png" alt="06">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/11.png" title="11">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/11.png" alt="11">
                         </a>
                       </div>
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="07">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="07">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/13.png" title="12">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/13.png" alt="12">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="08">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="08">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/14.png" title="13">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/14.png" alt="13">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="09">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="09">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/15.png" title="14">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/15.png" alt="14">
                         </a>
                       </div>
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/6.png" title="10">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/6.png" alt="10">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/12.png" title="11">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/12.png" alt="11">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="12">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="12">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/5.png" title="15">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/5.png" alt="15">
                         </a>
                       </div>
                     </div>

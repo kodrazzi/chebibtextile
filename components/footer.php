@@ -8,11 +8,11 @@
           <div class="footer-logo">
             <img src="./assets/img/logo-footer.png" alt="image" width="155" height="55">
             <div class="im-map">
-              <h5 class="title">1945 yılından beri süregelen tecrübemizle,</h5>
-              <p>Alanında uzman kadromuzla, her zaman hizmetinizdeyiz.</p>
+              <h5 class="title"><?php echo $lang['footer-experience-title']; ?></h5>
+              <p><?php echo $lang['footer-experience-text']; ?></p>
               <div class="map">
                 <a href="iletisim.php#map">
-                  <i class="fa fa-map-marker"></i>Adresimizi haritada görmek için</a>
+                  <i class="fa fa-map-marker"></i><?php echo $lang['footer-experience-address']; ?></a>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
         <div class="col-md-2">
           <div class="widget widget-follow-us">
             <div class="title-link v3">
-              <h5 class="widget-title">Sosyal Medya</h5>
+              <h5 class="widget-title"><?php echo $lang['footer-social']; ?></h5>
             </div>
             <ul class="follow-us">
               <li class="facebook">
@@ -49,23 +49,23 @@
         <div class="col-md-3">
           <div class="widget widget-our-services">
             <div class="title-link v4">
-              <h5 class="widget-title">Hizmetlerimiz</h5>
+              <h5 class="widget-title"><?php echo $lang['footer-ourServices']; ?></h5>
             </div>
             <ul class="our_services">
               <li class="facebook">
-                <a href="#"> Tekstil</a>
+                <a href="#"><?php echo $lang['footer-ourServices-1']; ?></a>
               </li>
               <li class="twitch">
-                <a href="#"> Hazır Giyim</a>
+                <a href="#"><?php echo $lang['footer-ourServices-2']; ?></a>
               </li>
               <li class="google">
-                <a href="#"> Dış Giyim</a>
+                <a href="#"><?php echo $lang['footer-ourServices-3']; ?></a>
               </li>
               <li class="linkedIn">
-                <a href="#"> İş Kıyafetleri</a>
+                <a href="#"><?php echo $lang['footer-ourServices-4']; ?></a>
               </li>
               <li class="youtube">
-                <a href="#"> Baskı İşlemleri</a>
+                <a href="#"><?php echo $lang['footer-ourServices-5']; ?></a>
               </li>
             </ul>
           </div>
@@ -75,13 +75,13 @@
         <div class="col-md-3">
           <div class="widget widget-subscribe-us">
             <div class="title-link v4">
-              <h5 class="widget-title">BİZİ TAKİP EDİN</h5>
+              <h5 class="widget-title"><?php echo $lang['footer-followUs-title']; ?></h5>
             </div>
-            <p>Son gelişmelerden haberdar olmak için e-mail listemize kaydolun.</p>
+            <p><?php echo $lang['footer-followUs-text']; ?></p>
             <div class="widget subscribe-search">
               <form id="subscribe-form" method="post" action="#" data-mailchimp="true">
                 <div id="subscribe-content">
-                  <input type="text" tabindex="2" id="subscribe-email" name="subscribe-email" class="mailchimp-email" placeholder="E-mail adresinizi buraya giriniz.">
+                  <input type="text" tabindex="2" id="subscribe-email" name="subscribe-email" class="mailchimp-email" placeholder="<?php echo $lang['footer-followUs-placeholder']; ?>">
                   <button type="button" id="subscribe-button" class="submit-button bg-gold">
                     <i class="fa fa-envelope-open-o"></i>
                   </button>
@@ -106,8 +106,8 @@
           <div class="container-bottom">
             <div class="copyright">
               <a href="http://www.tarzyazilim.com.tr/" target="_blank">TARZ
-                <img style="margin-bottom:5px;" src="./assets/img/tarz-logo-15.png"> YAZILIM</a>
-              <p>CHEBIB TEKSTIL © 2018</p>
+                <img style="margin-bottom:5px;" src="./assets/img/tarz-logo-15.png"><?php echo $lang['footer-tarz-software']; ?></a>
+              <p><?php echo $lang['footer-chebib']; ?>© 2018</p>
             </div>
           </div>
           <!-- /.container-bottom -->
