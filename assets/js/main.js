@@ -1,3 +1,20 @@
+  //@prepros-prepend jquery.min.js
+  //@prepros-prepend bootstrap.min.js
+  //@prepros-prepend jquery.easing.js
+  //@prepros-prepend jquery-validate.js
+  //@prepros-prepend jquery.isotope.min.js
+  //@prepros-prepend jquery-waypoints.js
+  //@prepros-prepend smoothscroll.js
+  //@prepros-prepend jquery.easypiechart.min.js
+  //@prepros-prepend jquery.cookie.js
+  //@prepros-prepend jquery.fitvids.js
+  //@prepros-prepend jquery.tweet.min.js
+  //@prepros-prepend jquery.fancybox.js
+  //@prepros-prepend imagesloaded.min.js
+  //@prepros-prepend jquery.magnific-popup.js
+  //@prepros-prepend gmap3.min.js
+  //@prepros-prepend slick.js
+
 /**
  * isMobile
  * responsiveMenu
@@ -11,7 +28,6 @@
  * counter
  * tabs
  * flatPricingCarousel
- * flatTestimonials
  * simpleSlider
  * datepicker
  * sectionVideo
@@ -20,7 +36,6 @@
  * flatAnimation
  * goTop
  * retinaLogos
- * parallax
  * removePreloader
  */
 ;
@@ -119,18 +134,6 @@
         }
       });
     }); //counter
-  };
-  var testimonial = function () {
-    $('.testimonial-text').bxSlider({
-      mode: 'fade',
-      touchEnabled: true,
-      oneToOneTouch: true,
-      pagerCustom: '#bx-pager',
-      nextSelector: '#bx-next',
-      prevSelector: '#bx-prev',
-      nextText: '<i class="icons-angle-right"></i>',
-      prevText: '<i class="icons-angle-left"></i>',
-    });
   };
   var detectViewport = function () {
     $('[data-waypoint-active="yes"]').waypoint(function () {
@@ -431,13 +434,6 @@
       return false;
     });
   };
-  var parallax = function () {
-    if ($().parallax && isMobile.any() == null) {
-      $('.parallax1').parallax("50%", 0.2);
-      $('.parallax2').parallax("50%", 0.4);
-      $('.parallax3').parallax("50%", 0.5);
-    }
-  };
   var videoPopup = function () {
     $(".fancybox").on("click", function () {
       $.fancybox({
@@ -586,12 +582,10 @@
     ajaxContactForm();
     videoPopup();
     alertBox();
-    parallax();
     googleMap();
     ajaxSubscribe.eventLoad();
     swClick();
     goTop();
     removePreloader();
-    testimonial();
   });
 })(jQuery);

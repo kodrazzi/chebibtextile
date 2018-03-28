@@ -1,5 +1,5 @@
 <?php
-  $dbip ="127.0.0.1";
+  $dbip ="89.252.187.152";
   $dbname ="chebibtekstil_web";
   $dbuser ="chebibtekstil_admin";
   $password ="Chebib_123456";
@@ -8,3 +8,4 @@
   } catch ( PDOException $e ){
     print $e->getMessage();
   }
+?>

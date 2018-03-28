@@ -7,13 +7,13 @@
         <div class="col-md-12">
           <ul class="flat-information">
             <li class="phone">
-              <a href="#" title="Phone number">
-                <i><?php echo $lang['phone']; ?>: +90 534 771 79 76</i>
+              <a href="tel:05347717976" title="Phone number">
+                <?php echo $lang['phone']; ?>: +90 534 771 79 76
               </a>
             </li>
             <li class="email">
               <a href="iletisim.php#respond" title="Email address">
-                <i><?php echo $lang['email']; ?>: info@chebibtekstil.com</i>
+                <?php echo $lang['email']; ?>: info@chebibtekstil.com
               </a>
             </li>
           </ul>
@@ -34,11 +34,6 @@
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-<!--               <li class="wifi">
-                <a href="#">
-                  <i class="fa fa-wifi"></i>
-                </a>
-              </li> -->
             </ul>
           </div>
         </div>
