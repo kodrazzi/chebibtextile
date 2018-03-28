@@ -17,7 +17,7 @@
 
     /* footer-php yazıları */ 
     
-    'footer-experience-title' => '1945 yılından beri süregelen tecrübemizle,',
+    'footer-experience-title' => '1960 yılından beri süregelen tecrübemizle,',
     'footer-experience-text' => 'Alanında uzman kadromuzla, her zaman hizmetinizdeyiz.',
     'footer-experience-address' => ' Adresimizi haritada görmek için',
     'footer-social' => 'Sosyal Medya',
@@ -35,7 +35,7 @@
 
     /* index-php yazıları */ 
 
-    'hero-slogan-1-1' => "1945' den beri,",
+    'hero-slogan-1-1' => "1960' den beri,",
     'hero-slogan-1-2' => 'Tekstil imalatçısıyız.',
     'hero-slogan-1-3' => 'Sizin isteklerinize göre, her çeşit kumaştan harika ürünler yapıyoruz.',
     'hero-button' => 'CHEBIB TEKSTİL',
@@ -88,13 +88,13 @@
     'aboutUs-sidebar-5' => 'Hedeflerimiz',
     'aboutUs-sidebar-5-title' => 'Gelecek Yatırım Hedeflerimiz :',
     'aboutUs-sidebar-5-list-1' => 'Örgü Fabrikası',
-    'aboutUs-sidebar-5-list-2' => 'Bitirme Hatları',
-    'aboutUs-sidebar-5-list-3' => 'Boyahane',
+    'aboutUs-sidebar-5-list-2' => 'Boyahane',
+    /*'aboutUs-sidebar-5-list-3' => 'Bitirme Hatları',*/
     'aboutUs-sidebar-6' => 'Foto Galeri',
     'aboutUs-sidebar-6-textile' => 'Konfeksiyon :',
     'aboutUs-sidebar-6-printing' => 'Baskı :',
     'aboutUs-content-1' => 'Sevgili Müşterilerimiz,',
-    'aboutUs-content-2' => 'Chebib tekstil 1945 yılından bu yana tekstil sektöründe üretim yapmakta olup, tekstil alanında tecrübeli güvenilir ve köklü bir firmadır.',
+    'aboutUs-content-2' => 'Chebib tekstil 1960 yılından bu yana tekstil sektöründe üretim yapmakta olup, tekstil alanında tecrübeli güvenilir ve köklü bir firmadır.',
     'aboutUs-content-3' => "Chebib Ailesi, Asya, Afrika ve Orta Doğu'da bulunan farklı iş zincirlerinden oluşan bir grup şirketidir.Sevgili Müşterilerimiz,",
     'aboutUs-content-4' => "Temel olarak, firmamız Chebib Ailesi oğulları tarafından bir Genel Müdür altında çalışmaktadır:",
     'aboutUs-content-5' => "Chebib Ailesi olarak, Suriye'de meydana gelen korkunç koşullar nedeniyle, tesislerimizi yeni adresimize taşıdık.",

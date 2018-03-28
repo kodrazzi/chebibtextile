@@ -30,17 +30,17 @@
                 <a href="#"> Facebook</a>
               </li>
               <li class="twiter">
-                <a href="#"> Twiiter</a>
-              </li>
-              <li class="google">
-                <a href="#"> Google Plus </a>
+                <a href="#"> Instagram</a>
               </li>
               <li class="linkedIn">
                 <a href="#"> LinkedIn</a>
               </li>
+<!--               <li class="google">
+                <a href="#"> Google Plus </a>
+              </li>
               <li class="youtube">
                 <a href="#"> Youtube</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -53,19 +53,19 @@
             </div>
             <ul class="our_services">
               <li class="facebook">
-                <a href="#"><?php echo $lang['footer-ourServices-1']; ?></a>
+                <a href="hakkimizda.php#textile"><?php echo $lang['footer-ourServices-1']; ?></a>
               </li>
               <li class="twitch">
-                <a href="#"><?php echo $lang['footer-ourServices-2']; ?></a>
+                <a href="hakkimizda.php#textile"><?php echo $lang['footer-ourServices-2']; ?></a>
               </li>
               <li class="google">
-                <a href="#"><?php echo $lang['footer-ourServices-3']; ?></a>
+                <a href="hakkimizda.php#textile"><?php echo $lang['footer-ourServices-3']; ?></a>
               </li>
               <li class="linkedIn">
-                <a href="#"><?php echo $lang['footer-ourServices-4']; ?></a>
+                <a href="hakkimizda.php#textile"><?php echo $lang['footer-ourServices-4']; ?></a>
               </li>
               <li class="youtube">
-                <a href="#"><?php echo $lang['footer-ourServices-5']; ?></a>
+                <a href="hakkimizda.php#printing"><?php echo $lang['footer-ourServices-5']; ?></a>
               </li>
             </ul>
           </div>
@@ -104,10 +104,15 @@
       <div class="row">
         <div class="col-md-12">
           <div class="container-bottom">
-            <div class="copyright">
-              <a href="http://www.tarzyazilim.com.tr/" target="_blank">TARZ
-                <img style="margin-bottom:5px;" src="./assets/img/tarz-logo-15.png"><?php echo $lang['footer-tarz-software']; ?></a>
-              <p><?php echo $lang['footer-chebib']; ?>© 2018</p>
+            <div class="copyright flex-container">
+              <div class="flex-1-center">
+                <a href="http://www.tarzyazilim.com.tr/" target="_blank">TARZ
+                  <img style="margin-bottom:5px;" src="./assets/img/tarz-logo-15.png"><?php echo $lang['footer-tarz-software']; ?>
+                </a>
+              </div>
+              <div class="flex-footer-chebib">
+                <?php echo $lang['footer-chebib']; ?>© 2018
+              </div>
             </div>
           </div>
           <!-- /.container-bottom -->

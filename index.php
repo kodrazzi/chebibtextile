@@ -671,7 +671,7 @@
 
             <div class="iteam-fact v3">
               <div class="num-fact">
-                <p>73</p>
+                <p>58</p>
               </div>
               <div class="text-fact">
                 <h4 class="title"><?php echo $lang['section-info-3-1']; ?></h4>

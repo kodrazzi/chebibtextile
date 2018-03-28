@@ -8,11 +8,11 @@
           <ul class="flat-information">
             <li class="phone">
               <a href="#" title="Phone number">
-                <i><?php echo $lang['phone']; ?>: +90 344 236 66 72</i>
+                <i><?php echo $lang['phone']; ?>: +90 534 771 79 76</i>
               </a>
             </li>
             <li class="email">
-              <a href="#" title="Email address">
+              <a href="iletisim.php#respond" title="Email address">
                 <i><?php echo $lang['email']; ?>: info@chebibtekstil.com</i>
               </a>
             </li>
@@ -24,21 +24,21 @@
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="twitter">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
               <li class="instagram">
                 <a href="#">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
-              <li class="wifi">
+              <li class="linkedIn">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+<!--               <li class="wifi">
                 <a href="#">
                   <i class="fa fa-wifi"></i>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>

@@ -55,7 +55,7 @@
               <div class="details">
                 <h5><?php echo $lang['contact-address-title']; ?></h5>
                 <p>Erkenez Mah. Ramazan YildirimCad 28/A</p>
-                <p>Dulkadiroglu / Kahramanmaras / Turkey</p>
+                <p id="respond">Dulkadiroglu / Kahramanmaras / Turkey</p>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@
       <div class="row">
         <div class="flat-spacer d74px"></div>
       </div>
-      <div id="respond" class="comment-respond contact style2">
+      <div class="comment-respond contact style2">
         <div class="title-section style1">
           <h3 class="title"><?php echo $lang['contact-message-title']; ?></h3>
         </div>

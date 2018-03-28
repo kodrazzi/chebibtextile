@@ -289,9 +289,9 @@
                         <p id="photos">
                           <?php echo $lang['aboutUs-sidebar-5-list-2']; ?>
                         </p>
-                        <p>
-                          <?php echo $lang['aboutUs-sidebar-5-list-3']; ?>
-                        </p>
+<!--                         <p>
+                          <?php /* echo $lang['aboutUs-sidebar-5-list-3']; */ ?>
+                        </p> -->
                       </div>
                     </div>
                   </div>
@@ -322,16 +322,13 @@
                         <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/7.png" title="05">
                           <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/7.png" alt="05">
                         </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/8.png" title="06">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/8.png" alt="06">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="06">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="06">
                         </a>
                       </div>
                       <div class="item">
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/4.png" title="07">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/4.png" alt="07">
-                        </a>
-                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="08">
-                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="08">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/home1/3.png" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/home1/3.png" alt="07">
                         </a>
                       </div>
                     </div>

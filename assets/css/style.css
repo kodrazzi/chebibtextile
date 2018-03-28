@@ -674,12 +674,20 @@ input[type="color"],
   color: #fff;
 }
 
+.top .flat-socials li.facebook i:before {
+  content: "\f09a";
+}
+
 .top .flat-socials li.twitter i:before {
   content: "\f099";
 }
 
 .top .flat-socials li.instagram i:before {
   content: "\f16d";
+}
+
+.top .flat-socials li.linkedIn i:before {
+  content: "\f0e1";
 }
 
 .top .flat-socials li.wifi i:before {
@@ -3051,4 +3059,21 @@ article .comment.style1 {
 
 .border-radius-3 {
   border-radius: 3px;
+}
+
+.flex-container{
+  display:flex; 
+  flex-direction:row; 
+  align-items:center; 
+  justify-content:space-between;
+}
+
+.flex-1-center{
+/*   flex:1; */
+}
+
+.flex-footer-chebib{
+/*  flex:1; 
+  display: flex; 
+  justify-content: flex-end; */
 }

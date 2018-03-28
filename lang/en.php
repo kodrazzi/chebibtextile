@@ -17,7 +17,7 @@
 
     /* footer-php texts */ 
 
-    'footer-experience-title' => 'With our ongoing experience since 1945,',
+    'footer-experience-title' => 'With our ongoing experience since 1960,',
     'footer-experience-text' => 'We are always at your service, with our leading expert personnel.',
     'footer-experience-address' => ' To see our address on the map',
     'footer-social' => 'Follow Us',
@@ -36,8 +36,8 @@
     /* index-php texts */ 
     
     'hero-slogan-1-1' => 'We produce textile',
-    'hero-slogan-1-2' => 'Since 1945.',
-    'hero-slogan-1-3' => 'According to your wishes, we make wonderful products for you from all kinds of fabrics.',
+    'hero-slogan-1-2' => 'Since 1960.',
+    'hero-slogan-1-3' => 'According to your wishes, we make lovely products for you from all kinds of fabrics.',
     'hero-button' => 'CHEBIB TEXTILE',
     'hero-slogan-2-1' => 'Innovative, leader',
     'hero-slogan-2-2' => 'And transforming',
@@ -88,13 +88,13 @@
     'aboutUs-sidebar-5' => 'Our Goals',
     'aboutUs-sidebar-5-title' => "More investments to come:",
     'aboutUs-sidebar-5-list-1' => 'Knitting Mill',
-    'aboutUs-sidebar-5-list-2' => 'Finishing Lines',
-    'aboutUs-sidebar-5-list-3' => 'Dye House',
+    'aboutUs-sidebar-5-list-2' => 'Dye House',
+    /*'aboutUs-sidebar-5-list-3' => 'Finishing Lines',*/
     'aboutUs-sidebar-6' => 'Photo Gallery',
     'aboutUs-sidebar-6-textile' => 'Textile :',
     'aboutUs-sidebar-6-printing' => 'Printing :',
     'aboutUs-content-1' => 'Dear Customers,',
-    'aboutUs-content-2' => 'Chebib textile has been manufacturing in the textile sector since 1945 and is a reliable and well-established company experienced in textile field.',
+    'aboutUs-content-2' => 'Chebib textile has been manufacturing in the textile sector since 1960 and is a reliable and well-established company experienced in textile field.',
     'aboutUs-content-3' => 'The Chebib family is a group of diverse business chains in Asia, Africa and the Middle East.',
     'aboutUs-content-4' => 'Basically, our company is working under a General Manager who is a son of the Chebib Family :',
     'aboutUs-content-5' => 'As the Chebib family, we moved our facilities to our new address because of the terrible conditions that took place in Syria.',
