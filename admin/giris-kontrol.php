@@ -10,7 +10,7 @@ if ( $sorgu->rowCount() ){
     $_SESSION["login"] = "true";
     
     foreach ($sorgu as $kullanici) 
-    {     
+    {
         $_SESSION['user_name'] = $kullanici['adi'];
         $_SESSION['user_surname'] = $kullanici['soyadi'];
         $_SESSION['email'] = $kullanici['email'];
@@ -19,10 +19,10 @@ if ( $sorgu->rowCount() ){
         $_SESSION['id'] =$kullanici['id'];
     }
     
-        header("Location:dashboard.php");
+        header("Location:main.php");
 }
 else{
-    header("Location:dashboard.php");
+    header("Location:index.php?sonuc=hatali-giris");
 }
 //Giriş ekranı 
 $sifreKilit =$_POST['sifre-kilit'];
@@ -39,7 +39,7 @@ if ( $sorgu2->rowCount() ){
         $_SESSION['kayit_tarihi'] =$kullanici2['kayitTarihi'];
         $_SESSION['id'] =$kullanici2['id'];
     }
-    header("Location:dashboard.php");
+    header("Location:main.php");
 }
 ob_end_flush();
 ?>

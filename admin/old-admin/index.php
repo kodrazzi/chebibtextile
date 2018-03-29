@@ -15,15 +15,15 @@
   <meta name="keywords" content="admin, dashboard, creative, web, development" />
   <meta name="author" content="Kodrazzi" />
   <!-- Styles -->
-  <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css" />
+  <link type="text/css" rel="stylesheet" href="./../assets/plugins/materialize/css/materialize.min.css" />
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">
+  <link href="./../assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">
   <!-- Theme Styles -->
-  <link href="assets/css/alpha.min.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+  <link href="./../assets/css/alpha.min.css" rel="stylesheet" type="text/css" />
+  <link href="./../assets/css/custom.css" rel="stylesheet" type="text/css" />
   
   <!-- Icons -->
-  <link rel="icon" type="image/png" href="img/favicon/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./../img/favicon/favicon.png" sizes="32x32">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -90,7 +90,7 @@
               <div class="card-content ">
                 <span class="card-title">Giriş</span>
                 <div class="row">
-                  <form class="col s12" action="giris-kontrol.php" method="post">
+                  <form class="col s12" action="../giris-kontrol.php" method="post">
                     <div class="input-field col s12">
                       <input id="kadi" type="text" class="validate" name="kadi" required="required">
                       <label for="kadi">Kullanıcı Adı</label>
@@ -118,14 +118,14 @@
     </main>
   </div>
   <!-- Javascripts -->  
-  <script src="vendor/jquery/dist/jquery.min.js"></script>
-  <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
-  <script src="assets/plugins/jquery/jquery-2.2.0.min.js"></script>
-  <script src="assets/plugins/materialize/js/materialize.min.js"></script>
-  <script src="assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
-  <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
-  <script src="assets/js/alpha.min.js"></script>
-  <script src="js/app.min.js"></script>
+  <script src="./../vendor/jquery/dist/jquery.min.js"></script>
+  <script src="./../vendor/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./../assets/plugins/jquery/jquery-2.2.0.min.js"></script>
+  <script src="./../assets/plugins/materialize/js/materialize.min.js"></script>
+  <script src="./../assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
+  <script src="./../assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+  <script src="./../assets/js/alpha.min.js"></script>
+  <script src="./../js/app.min.js"></script>
   <script type="text/javascript">
     $(document).ajaxStart(function () {
       Pace.restart()

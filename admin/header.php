@@ -40,7 +40,7 @@
   <!-- Title -->
 
 
-  <title>Chebib Tekstil Yönetim Paneli</title>
+  <title>Chebib Tekstil | Admin Dashboard</title>
 
 
 
@@ -161,98 +161,36 @@
 
 
   <meta name="author" content="yupagem">
-
-
   <link rel="icon" type="image/png" href="img/logo-akyar-insaat-16x16.png" sizes="16x16">
-
-
   <link rel="icon" type="image/png" href="img/logo-akyar-insaat-32x32.png" sizes="32x32">
-
-
   <link rel="apple-touch-icon" type="image/png" href="img/logo-akyar-insaat-180x180.png" sizes="180x180">
-
-
   <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
-
-
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
-
-
   <link rel="stylesheet" href="vendor/jasny-bootstrap/dist/css/jasny-bootstrap.min.css">
-
-
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-
-
   <link rel="stylesheet" href="vendor/Ionicons/css/ionicons.min.css">
-
-
   <link rel="stylesheet" href="vendor/izitoast/dist/css/iziToast.min.css">
-
-
   <link rel="stylesheet" href="vendor/PACE/themes/white/pace-theme-flash.css">
-
-
   <link rel="stylesheet" href="vendor/morris.js/morris.css">
-
-
   <link rel="stylesheet" href="plugin/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css">
-
-
   <link rel="stylesheet" href="vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
-
-
   <link rel="stylesheet" href="vendor/bootstrap-daterangepicker/daterangepicker.css">
-
-
   <link rel="stylesheet" href="vendor/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.min.css">
-
-
   <link rel="stylesheet" href="vendor/iCheck/skins/square/blue.css">
-
-
   <link rel="stylesheet" href="vendor/datatables.net-bs/css/dataTables.bootstrap.min.css">
-
-
   <link rel="stylesheet" href="css/app.min.css">
-
-
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=latin-ext" rel="stylesheet"> -->
-
-
-
-
-
-  <?php /*
-
-
-  include "functions.php";
-
-
-  $baglan=$db->query("SELECT * FROM ozelScriptler", PDO::FETCH_ASSOC);
-
-
+  <?php 
+  include "./config/config.php";
+/*  $baglan=$db->query("SELECT * FROM ozelScriptler", PDO::FETCH_ASSOC);
   if ( $baglan->rowCount()) {
 
-
     foreach( $baglan as $row) {
-
-
       echo $row['headScripti'];
-
-
     }
-
-
-  }
-
-
   $db=null;
-
-
+}
   */
-
-
   ?>
 
 
@@ -449,173 +387,59 @@
 
 
           <section class="material-design-hamburger navigation-toggle">
-
-
             <a href="javascript:void(0)" data-activates="slide-out" class="button-collapse show-on-large material-design-hamburger__icon">
-
-
               <span class="material-design-hamburger__layer"></span>
-
-
             </a>
-
-
           </section>
-
-
           <div class="header-title col s3 m3">
-
-
-            <span class="chapter-title">
-
-
+            <span class="chapter-title" style="height:auto !important;">
               <?php echo $_SESSION["user_name"]; ?>
-
-
             </span>
-
-
           </div>
-
-
           <div class="header-title col s3 m3">
-
-
             <span class="chapter-title">
-
-
               CHEBİB TEKSİL ADMİN SAYFASI
-
-
             </span>
-
-
           </div>
-
-
         </div>
-
-
       </nav>
-
-
     </header>
-
-
-
-
-
     <!-- OLD HEADER -->
-
-
     <!-- </head>
-
-
 <body class="hold-transition skin-blue sidebar-mini fixed"> -->
-
-
     <!--[if lt IE 10]>
-
-
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-
-
 <![endif]-->
-
-
     <!--   <div class="wrapper">
-
-
     <header class="main-header"><a class="logo" href="main.php"><span class="logo-mini"><b>NV</b>A</span><span class="logo-lg"><b>Ninova</b>Admin</span></a>
-
-
       <nav class="navbar navbar-static-top"><a class="sidebar-toggle" href="#" data-toggle="push-menu" role="button"><span class="sr-only">Toggle navigation</span></a>
-
-
         <div class="navbar-custom-menu">
-
-
           <ul class="nav navbar-nav">
-
-
             <li class="dropdown user user-menu"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><img class="user-image" src="img/<?php echo $_SESSION['profil_foto'] ?>" alt="<?php echo $_SESSION["user"]; ?>"><span class="hidden-xs"><?php echo $_SESSION["user"]; ?></span></a>
-
-
               <ul class="dropdown-menu">
-
-
                 <li class="user-header"><img class="img-circle" src="img/<?php /* echo $_SESSION['profil_foto'] ?>" alt="bahadirakca">
-
-
                   <p>
-
-
                     <?php echo $_SESSION["user"]; ?> - AKYAR İnşaat<small>Üyelik Tarihi <?php echo $_SESSION['kayit_tarihi'] */?></small></p>
-
-
                 </li>
-
-
                 <li class="user-footer" style="text-align:center;">
-
-
                   <div class="pull-left"><a class="btn btn-default btn-flat" href="profilim.php">Profilim</a></div>
-
-
                   <div class="pull-right"><a class="btn btn-default btn-flat" href="index.php">Çıkış Yap</a></div>
-
-
                   <div><a class="btn btn-default btn-flat" href="oturum-kilidi.php">Kilitle</a></div>
-
-
                 </li>
-
-
               </ul>
-
-
             </li>
-
-
             <li><a href="main.php" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Siteyi Görüntüle"><i class="fa fa-external-link"></i></a></li>
-
-
             <li><a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a></li>
-
-
           </ul>
-
-
         </div>
-
-
       </nav>
-
-
     </header> -->
-
-
     <!-- OLD HEADER END -->
-
-
-
-
-
     <!-- ASIDE NAV -->
-
-
     <aside id="slide-out" class="side-nav white fixed">
-
-
       <div class="side-nav-wrapper">
-
-
         <div class="sidebar-profile">
-
-
           <div class="sidebar-profile-image">
-
-
             <img src="<?php if($_SESSION['profil_foto']) {echo"img/"+ $_SESSION['profil_foto'];}else{echo "assets/images/profile-image.png";} ?>" class="circle" alt="">
 
 
@@ -662,11 +486,7 @@
 
 
                 <i class="material-icons">person</i>Profil</a>
-
-
             </li>
-
-
             <li class="no-padding">
 
 
@@ -674,215 +494,75 @@
 
 
                 <i class="material-icons">mail_outline</i>Inbox</a>
-
-
             </li>
-
-
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">star_border</i>Starred
-
-
                 <span class="new badge">18</span>
-
-
               </a>
-
-
             </li>
-
-
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">done</i>Sent Mail</a>
-
-
             </li>
-
-
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">history</i>History
-
-
                 <span class="new grey lighten-1 badge">3 new</span>
-
-
               </a>
-
-
             </li>
-
-
             <li class="divider"></li>
-
-
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">exit_to_app</i>Sign Out</a>
-
-
             </li>
-
-
           </ul>
-
-
         </div>
-
-
         <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
-
-
           <li class="no-padding active">
-
-
-            <a class="waves-effect waves-grey active" href="index.html">
-
-
-              <i class="material-icons">settings_input_svideo</i>E-mail</a>
-
-
+            <a class="waves-effect waves-grey active" href="main.php?p=add-slider">
+              <i class="material-icons">settings_input_svideo</i>Slider Resim Ekleme</a>
           </li>
-
-
           <li class="no-padding">
-
-
-            <a class="waves-effect waves-grey">
-
-
+            <a class="waves-effect waves-grey" href="main.php?p=add-referance">
               <i class="material-icons">apps</i>Referans Ekleme
-
-
             </a>
-
-
           </li>
-
-
           <li class="no-padding">
-
-
-            <a class="collapsible-header waves-effect waves-grey">
-
-
+            <a class="collapsible-header waves-effect waves-grey" >
               <i class="material-icons">code</i>Hakkımızda
-
-
               <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
-
-
             </a>
-
-
             <div class="collapsible-body">
-
-
               <ul>
-
-
                 <li>
-
-
-                  <a href="ui-accordions.html">İçerik Menü Listesi</a>
-
-
+                  <a href="main.php?p=aboutUs-menu">Menü Düzenleme</a>
                 </li>
-
-
-                <li>
-
-
-                  <a href="ui-badges.html">İçerik Ekleme</a>
-
-
-                </li>
-
-
+<!--                 <li>
+                  <a href="main.php?p=aboutUs-content">İçerik Düzenleme</a>
+                </li> -->
               </ul>
-
-
             </div>
-
-
           </li>
-
-
           <li class="no-padding">
-
-
             <a class="waves-effect waves-grey">
-
-
               <i class="material-icons">add_box</i>Ürün Ekleme
-
-
             </a>
-
-
             </li>
-
-
             <li class="no-padding">
-
-
               <a class="collapsible-header waves-effect waves-grey">
-
-
                 <i class="material-icons">settings</i>Ayarlar
-
-
                 <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
-
-
               </a>
-
-
               <div class="collapsible-body">
-
-
                 <ul>
-
-
                   <li>
-
-
                     <a href="layout-blank.html">re-Captcha</a>
-
-
                   </li>
-
-
                   <li>
-
-
                 </ul>
-
-
               </div>
-
-
             </li>
-
-
             <li class="no-padding">
 
 
