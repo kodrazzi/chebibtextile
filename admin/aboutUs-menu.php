@@ -26,7 +26,7 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="aboutUs-sidebar-en" name="aboutUs-sidebar-en" type="text" class="validate" value="<?php echo $db_aboutUs['sidebar_n']; ?>">
+              <input id="aboutUs-sidebar-en" name="aboutUs-sidebar-en" type="text" class="validate" value="<?php echo $db_aboutUs['sidebar_en']; ?>">
               <label for="aboutUs-sidebar-en" class="">Menu Header</label>
             </div>
             <div class="input-field col s12">

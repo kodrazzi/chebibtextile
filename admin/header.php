@@ -440,7 +440,7 @@
       <div class="side-nav-wrapper">
         <div class="sidebar-profile">
           <div class="sidebar-profile-image">
-            <img src="<?php if($_SESSION['profil_foto']) {echo"img/"+ $_SESSION['profil_foto'];}else{echo "assets/images/profile-image.png";} ?>" class="circle" alt="">
+            <img src="<?php if($_SESSION['profil_foto']) {echo" img/ "+ $_SESSION['profil_foto'];}else{echo "assets/images/profile-image.png ";} ?>" class="circle" alt="">
 
 
           </div>
@@ -452,10 +452,13 @@
             <a href="javascript:void(0);" class="account-settings-link">
 
 
-              <p><?php echo ($_SESSION["user_name"] . " " . $_SESSION["user_surname"]); ?></p>
+              <p>
+                <?php echo ($_SESSION["user_name"] . " " . $_SESSION["user_surname"]); ?>
+              </p>
 
 
-              <span><?php echo $_SESSION["email"]; ?>
+              <span>
+                <?php echo $_SESSION["email"]; ?>
 
 
                 <i class="material-icons right">arrow_drop_down</i>
@@ -529,7 +532,7 @@
             </a>
           </li>
           <li class="no-padding">
-            <a class="collapsible-header waves-effect waves-grey" >
+            <a class="collapsible-header waves-effect waves-grey">
               <i class="material-icons">code</i>Hakkımızda
               <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
             </a>
@@ -538,202 +541,91 @@
                 <li>
                   <a href="main.php?p=aboutUs-menu">Menü Düzenleme</a>
                 </li>
-<!--                 <li>
+                <li>
+                  <a href="main.php?p=gallery">Galeri Düzenleme</a>
+                </li>
+                <!--                 <li>
                   <a href="main.php?p=aboutUs-content">İçerik Düzenleme</a>
                 </li> -->
               </ul>
             </div>
           </li>
-          <li class="no-padding">
+<!--           <li class="no-padding">
             <a class="waves-effect waves-grey">
               <i class="material-icons">add_box</i>Ürün Ekleme
             </a>
-            </li>
-            <li class="no-padding">
+          </li> -->
+<!--           <li class="no-padding">
+            <a class="collapsible-header waves-effect waves-grey">
+              <i class="material-icons">settings</i>Ayarlar
+              <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="layout-blank.html">re-Captcha</a>
+                </li>
+                <li>
+              </ul>
+            </div>
+          </li>
+          <li class="no-padding"> 
               <a class="collapsible-header waves-effect waves-grey">
-                <i class="material-icons">settings</i>Ayarlar
-                <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
-              </a>
-              <div class="collapsible-body">
-                <ul>
-                  <li>
-                    <a href="layout-blank.html">re-Captcha</a>
-                  </li>
-                  <li>
-                </ul>
-              </div>
-            </li>
-            <li class="no-padding">
-
-
-              <a class="collapsible-header waves-effect waves-grey">
-
-
                 <i class="material-icons">tag_faces</i>Diğer Sayfalar
-
-
                 <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>
-
-
               </a>
-
-
               <div class="collapsible-body">
-
-
                 <ul>
-
-
                   <li>
-
-
                     <a href="404.html">404 Page</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="500.html">500 Page</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="invoice.html">Invoice</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="faq.html">FAQ</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="sign-in.html">Sign In</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="sign-up.html">Sign Up</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="lock-screen.html">Lock Screen</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="pattern-lock-screen.html">Pattern Lock Screen</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="forgot.html">Forgot Password</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="pricing-tables.html">Pricing Tables</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="contact.html">Contact</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="gallery.html">Gallery</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="timeline.html">Timeline</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="calendar.html">Calendar</a>
-
-
                   </li>
-
-
                   <li>
-
-
                     <a href="coming-soon.html">Coming Soon</a>
-
-
                   </li>
-
-
                 </ul>
-
-
               </div>
-
-
-            </li>
-
-
+            </li>-->
         </ul>
-
-
         <div style="display:flex; align-items:center; justify-content:center;" class="footer">
-
-
           <p class="copyright">
 
 

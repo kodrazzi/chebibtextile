@@ -13,6 +13,12 @@
                 case 'aboutUs-menu':
                     include 'aboutUs-menu.php';
                     break;
+                case 'gallery':
+                    include 'gallery.php';
+                    break;
+                case 'gallery-photo-add':
+                    include 'gallery-photo-add.php';
+                    break;
                 
                 default:
                     break;
