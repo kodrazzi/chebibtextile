@@ -27,9 +27,9 @@
     'footer-ourServices-3' => ' Dış Giyim',
     'footer-ourServices-4' => ' İş Kıyafetleri',
     'footer-ourServices-5' => ' Baskı İşlemleri',
-    'footer-followUs-title' => 'Bizi Takip Edin',
-    'footer-followUs-text' => 'Son gelişmelerden haberdar olmak için e-mail listemize kaydolun.',
-    'footer-followUs-placeholder' => 'E-mail adresinizi girin',
+    'footer-followUs-title' => 'İletişim İçin',
+    'footer-followUs-text' => 'Size hemen yardımcı olabilmemiz için bize e-mail gönderin.',
+    'footer-followUs-placeholder' => 'Bize yazın',
     'footer-tarz-software' => ' YAZILIM',
     'footer-chebib' => 'CHEBIB TEKSTİL ',
 

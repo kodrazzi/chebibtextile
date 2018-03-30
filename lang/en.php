@@ -27,9 +27,9 @@
     'footer-ourServices-3' => ' Underwear',
     'footer-ourServices-4' => ' Work Uniform',
     'footer-ourServices-5' => ' Printing',
-    'footer-followUs-title' => ' Follow Us',
-    'footer-followUs-text' => 'Sign Up for our mailing list to get latest updates and news.',
-    'footer-followUs-placeholder' => 'Enter your email',
+    'footer-followUs-title' => ' E-Mail Us',
+    'footer-followUs-text' => 'Send an email us to help you soon.',
+    'footer-followUs-placeholder' => 'Send us an email',
     'footer-tarz-software' => ' SOFTWARE',
     'footer-chebib' => 'CHEBIB TEXTILE ',
     

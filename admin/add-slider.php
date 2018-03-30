@@ -29,8 +29,8 @@
         <div class="file-field input-field">
           <div class="btn teal lighten-1">
             <span>Dosya</span>
-            <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
-            <input type="file" name="add-slider-upload">
+            <!--<input type="hidden" name="MAX_FILE_SIZE" value="3000000000" />-->
+            <input type="file" name="file">
           </div>
           <div class="file-path-wrapper">
             <input class="file-path validate" type="text" placeholder="Upload a photo">

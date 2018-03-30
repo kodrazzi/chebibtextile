@@ -1,24 +1,40 @@
 /* Write your custom CSS here */
-
-div.filigran {
-  visibility: hidden;
-  position: absolute;
-  margin: 5px;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  width: 260px;
-  height: 167px;
-  background: rgba(128, 128, 128, 0.8);
-  font-size: 6em;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.filigran-container {
+  position: relative;
+  margin:5px;
 }
 
-div.filigran:hover {
-  visibility: visible !important;
+.filigran-image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.filigran-container:hover .overlay {
+  opacity: 1;
+}
+
+.filigran-text {
+  color: white;
+  font-size: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .photo-add {

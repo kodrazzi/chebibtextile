@@ -81,10 +81,10 @@
             <div class="widget subscribe-search">
               <form id="subscribe-form" method="post" action="#" data-mailchimp="true">
                 <div id="subscribe-content">
-                  <input type="text" tabindex="2" id="subscribe-email" name="subscribe-email" class="mailchimp-email" placeholder="<?php echo $lang['footer-followUs-placeholder']; ?>">
-                  <button type="button" id="subscribe-button" class="submit-button bg-gold">
+                  <a href="iletisim.php#respond" type="button" class="submit-button bg-gold" style="color:white !important; width: 100% !important; font-family: inherit; line-height: 40px; font-weight: inherit; font-style: inherit;">
+                    <span><?php echo $lang['footer-followUs-placeholder'].' '; ?></span>
                     <i class="fa fa-envelope-open-o"></i>
-                  </button>
+                  </a>
                 </div>
                 <div id="subscribe-msg"></div>
               </form>
