@@ -11,7 +11,7 @@
         <a href="gallery-photo-delete.php?id=<?php echo $photo['id']; ?>">
           <li>
             <div class="filigran-container">
-              <img class="filigran-image" src="./../assets/img/about/<?php echo $photo['photo_name']; ?>.jpg" alt="img-<?php echo $photo['photo_name']; ?>" width="260px">
+              <img class="filigran-image" src="./../assets/img/about/<?php echo $photo['photo_name']; ?>" alt="img-<?php echo $photo['photo_name']; ?>" width="260px">
               <div class="overlay">
                 <div class="filigran-text">-</div>
               </div>
@@ -40,7 +40,7 @@
         <a href="gallery-photo-delete.php?id=<?php echo $photo['id']; ?>">
           <li>
             <div class="filigran-container">
-              <img class="filigran-image" src="./../assets/img/about/<?php echo $photo['photo_name']; ?>.jpg" alt="img-<?php echo $photo['photo_name']; ?>" width="260px">
+              <img class="filigran-image" src="./../assets/img/about/<?php echo $photo['photo_name']; ?>" alt="img-<?php echo $photo['photo_name']; ?>" width="260px">
               <div class="overlay">
                 <div class="filigran-text">-</div>
               </div>

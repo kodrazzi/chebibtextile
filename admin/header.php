@@ -1,165 +1,49 @@
 <?php 
-
-
   ob_start();
-
-
   session_start();
-
-
   if($_SESSION["login"] == false)
-
-
   {
-
-
       header("Location:index.php");
-
-
   }
-
-
 ?>
-
-
 <!DOCTYPE html>
-
-
 <html lang="tr">
 
-
-
-
-
 <head>
-
-
-
-
-
   <!-- Title -->
-
-
   <title>Chebib Tekstil | Admin Dashboard</title>
-
-
-
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-
   <meta charset="UTF-8">
-
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
   <meta name="description" content="Kodrazzi Responsive Admin Template" />
-
-
   <meta name="keywords" content="admin,dashboard,creative,web,development" />
-
-
   <meta name="author" content="Kodrazzi" />
-
-
-
-
-
   <!-- Styles -->
-
-
   <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css" />
-
-
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
   <link href="./../assets/plugins/metrojs/MetroJs.min.css" rel="stylesheet">
-
-
   <link href="./../assets/plugins/weather-icons-master/css/weather-icons.min.css" rel="stylesheet">
-
-
-
-
-
-
-
-
   <!-- Theme Styles -->
-
-
   <link href="assets/css/alpha.min.css" rel="stylesheet" type="text/css" />
-
-
   <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
-
-
-
-
-
   <!-- Icons -->
-
-
-  <link rel="icon" type="image/png" href="img/favicon/favicon.png" sizes="32x32">
-
-
-
-
-
+  <link rel="icon" type="image/png" href="./assets/images/favicon/favicon.png" sizes="32x32">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-
-
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-
   <!--[if lt IE 9]>
-
-
         <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-
-
         <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
-
         <![endif]-->
-
-
-
-
-
   <!--    </head>
-
-
 <!DOCTYPE html>
-
-
 <html lang="en">
-
-
 <head>
-
-
   <title>Kontrol Paneli | AKYAR Web Uygulaması</title>
-
-
   <meta charset="utf-8">
-
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
-
   <meta name="description" content="Ninova nvAdmin Web Uygulaması">
-
-
   <meta name="keywords" content="creative, web, development">
-
-
   <meta name="author" content="yupagem">
   <link rel="icon" type="image/png" href="img/logo-akyar-insaat-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="img/logo-akyar-insaat-32x32.png" sizes="32x32">
@@ -192,200 +76,69 @@
 }
   */
   ?>
-
-
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-
-
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-
   <!--[if lt IE 9]>
-
-
         <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-
-
         <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
-
         <![endif]-->
-
-
-
-
-
 </head>
 
-
-
-
-
 <body>
-
-
   <div class="loader-bg"></div>
-
-
   <div class="loader">
-
-
     <div class="preloader-wrapper big active">
-
-
       <div class="spinner-layer spinner-blue">
-
-
         <div class="circle-clipper left">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="gap-patch">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="circle-clipper right">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
       </div>
-
-
       <div class="spinner-layer spinner-teal lighten-1">
-
-
         <div class="circle-clipper left">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="gap-patch">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="circle-clipper right">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
       </div>
-
-
       <div class="spinner-layer spinner-yellow">
-
-
         <div class="circle-clipper left">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="gap-patch">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="circle-clipper right">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
       </div>
-
-
       <div class="spinner-layer spinner-green">
-
-
         <div class="circle-clipper left">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="gap-patch">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
         <div class="circle-clipper right">
-
-
           <div class="circle"></div>
-
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   </div>
-
-
   <div class="mn-content fixed-sidebar">
-
-
     <!-- HEADER -->
-
-
     <header class="mn-header navbar-fixed">
-
-
       <nav class="cyan darken-1">
-
-
         <div class="nav-wrapper row">
-
-
           <section class="material-design-hamburger navigation-toggle">
             <a href="javascript:void(0)" data-activates="slide-out" class="button-collapse show-on-large material-design-hamburger__icon">
               <span class="material-design-hamburger__layer"></span>
@@ -396,7 +149,7 @@
               <?php echo $_SESSION["user_name"]; ?>
             </span>
           </div>
-          <div class="header-title col s3 m3">
+          <div class="header-title col s6 m6">
             <span class="chapter-title">
               CHEBİB TEKSİL ADMİN SAYFASI
             </span>
@@ -441,61 +194,26 @@
         <div class="sidebar-profile">
           <div class="sidebar-profile-image">
             <img src="<?php if($_SESSION['profil_foto']) {echo" img/ "+ $_SESSION['profil_foto'];}else{echo "assets/images/profile-image.png ";} ?>" class="circle" alt="">
-
-
           </div>
-
-
           <div class="sidebar-profile-info">
-
-
-            <a href="javascript:void(0);" class="account-settings-link">
-
-
+            <a class="account-settings-link">
               <p>
                 <?php echo ($_SESSION["user_name"] . " " . $_SESSION["user_surname"]); ?>
               </p>
-
-
               <span>
                 <?php echo $_SESSION["email"]; ?>
-
-
-                <i class="material-icons right">arrow_drop_down</i>
-
-
               </span>
-
-
             </a>
-
-
           </div>
-
-
         </div>
-
-
-        <div class="sidebar-account-settings">
-
-
+        <!--    <div class="sidebar-account-settings">
           <ul>
-
-
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">person</i>Profil</a>
             </li>
             <li class="no-padding">
-
-
               <a class="waves-effect waves-grey">
-
-
                 <i class="material-icons">mail_outline</i>Inbox</a>
             </li>
             <li class="no-padding">
@@ -520,7 +238,7 @@
                 <i class="material-icons">exit_to_app</i>Sign Out</a>
             </li>
           </ul>
-        </div>
+        </div> -->
         <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
           <li class="no-padding active">
             <a class="waves-effect waves-grey active" href="main.php?p=add-slider">
@@ -550,12 +268,17 @@
               </ul>
             </div>
           </li>
-<!--           <li class="no-padding">
+          <li class="divider"></li>
+          <li class="no-padding">
+            <a href="signOut.php" class="waves-effect waves-grey">
+              <i class="material-icons">exit_to_app</i>Sign Out</a>
+          </li>
+          <!--           <li class="no-padding">
             <a class="waves-effect waves-grey">
               <i class="material-icons">add_box</i>Ürün Ekleme
             </a>
           </li> -->
-<!--           <li class="no-padding">
+          <!--           <li class="no-padding">
             <a class="collapsible-header waves-effect waves-grey">
               <i class="material-icons">settings</i>Ayarlar
               <i class="nav-drop-icon material-icons">keyboard_arrow_right</i>

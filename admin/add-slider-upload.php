@@ -2,11 +2,8 @@
 if($_POST){
 
     include "./config/config.php";
+    include "./config/fConfig.php";
     $dosyaYolu="public_html/assets/img/slides"; // dosya yolunu yanlış yazmışız :) tmm
-    $userName = 'chebibtekstil';
-    $userPass = 'Chebib_123456';
-    $conn = ftp_connect('chebibtekstil.com');
-    $login = ftp_login($conn, $userName, $userPass);
 
     $tmp_name = $_FILES['file']['tmp_name']; // tempdeki adı
     $resimAdi = $_FILES['file']['name']; // dosya adı
@@ -57,3 +54,4 @@ if($_POST){
     $db =null;
     
 }
+?>

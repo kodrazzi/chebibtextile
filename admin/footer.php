@@ -16,24 +16,5 @@
 <script src="assets/plugins/peity/jquery.peity.min.js"></script>
 <script src="assets/js/alpha.min.js"></script>
 <script src="assets/js/pages/dashboard.js"></script>
-
-<!-- <script type="text/javascript">
-  $.widget.bridge('uibutton', $.ui.button);
-</script>
-<script type="text/javascript">
-  $(document).ajaxStart(function () {
-    Pace.restart()
-  })
-  $('.ajax').click(function () {
-    $.ajax({
-      url: '#',
-      success: function (result) {
-        $('.ajax-content').html('İşlem tamam!')
-      }
-    })
-  })
-</script> -->
-
 </body>
-
 </html>
