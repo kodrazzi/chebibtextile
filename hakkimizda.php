@@ -330,6 +330,20 @@
                         <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/3.jpg" title="07">
                           <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/3.jpg" alt="07">
                         </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/17.jpg" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/17.jpg" alt="07">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/18.jpg" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/18.jpg" alt="07">
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/19.jpg" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/19.jpg" alt="07">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/20.jpg" title="07">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/20.jpg" alt="07">
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -367,6 +381,9 @@
                       <div class="item">
                         <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/5.jpg" title="15">
                           <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/5.jpg" alt="15">
+                        </a>
+                        <a class="iconbox icon-left v1 margin-0" href="./assets/img/about/16.jpg" title="16">
+                          <img class="border-radius-3 thumb box-shadow" src="./assets/img/about/16.jpg" alt="16">
                         </a>
                       </div>
                     </div>

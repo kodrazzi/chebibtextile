@@ -36,22 +36,22 @@
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
-        <h2>Title01</h2>
-        <p>Description</p>
+        <h2><?php echo $lang['hero-slogan-3-1']; ?></h2>
+        <p><?php echo $lang['hero-slogan-3-2']; ?></p>
       </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-43.jpg" alt="item">
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-02.jpg" alt="item">
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
-        <h2>Title01</h2>
-        <p>Description</p>
+        <h2><?php echo $lang['hero-slogan-4-1']; ?></h2>
+        <p><?php echo $lang['hero-slogan-4-2']; ?></p>
       </div>
       <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-44.jpg" alt="item">
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
-        <h2>Title01</h2>
-        <p>Description</p>
+        <h2><?php echo $lang['hero-slogan-5-1']; ?></h2>
+        <p><?php echo $lang['hero-slogan-5-2']; ?></p>
       </div>
       <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-21.jpg" alt="item">
     </div>
@@ -292,19 +292,19 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="ct_clients">
-            <a class="ct_clients__media" target="_blank" href="#">
+            <a href="http://agtextiles.com/en" class="ct_clients__media" target="_blank" href="#">
               <img src="./assets/img/clients/ag-textile.png" alt="image-client">
             </a>
-            <a class="ct_clients__media" target="_blank" href="#">
+            <a href="http://www.cnatextiles.com/" class="ct_clients__media" target="_blank" href="#">
               <img src="./assets/img/clients/ca-textile.png" alt="image-client">
             </a>
-            <a class="ct_clients__media" target="_blank" href="#">
+            <a href="http://www.palcounderwear.gr/" class="ct_clients__media" target="_blank" href="#">
               <img src="./assets/img/clients/palco.png" alt="image-client">
             </a>
-            <a class="ct_clients__media" target="_blank" href="#">
+            <a href="https://tr.puma.com/" class="ct_clients__media" target="_blank" href="#">
               <img src="./assets/img/clients/puma.png" alt="image-client">
             </a>
-            <a class="ct_clients__media" target="_blank" href="#">
+            <a href="https://www.tchibo.com.tr/" class="ct_clients__media" target="_blank" href="#">
               <img src="./assets/img/clients/tchibo.png" alt="image-client">
             </a>
           </div>

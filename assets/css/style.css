@@ -5571,6 +5571,7 @@ article .comment.style1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .ct_carousel__hero--item__content>h2 {
   margin: 3em auto 1em auto;
