@@ -25,35 +25,35 @@
         <h2><?php echo $lang['hero-slogan-1-1']; ?></h2>
         <p><?php echo $lang['hero-slogan-1-2']; ?></p>
       </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-12.jpg" alt="item">
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-41.jpg" alt="item">
+    </div>
+    <div class="ct_carousel__hero--item">
+      <div class="ct_carousel__hero--item__content">
+        <h2><?php echo $lang['hero-slogan-2-1']; ?></h2>
+        <p><?php echo $lang['hero-slogan-2-2']; ?></p>
+      </div>
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-42.jpg" alt="item">
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
         <h2>Title01</h2>
         <p>Description</p>
       </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-13.jpg" alt="item">
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-43.jpg" alt="item">
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
         <h2>Title01</h2>
         <p>Description</p>
       </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-14.jpg" alt="item">
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/konfeksiyon-44.jpg" alt="item">
     </div>
     <div class="ct_carousel__hero--item">
       <div class="ct_carousel__hero--item__content">
         <h2>Title01</h2>
         <p>Description</p>
       </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-15.jpg" alt="item">
-    </div>
-    <div class="ct_carousel__hero--item">
-      <div class="ct_carousel__hero--item__content">
-        <h2>Title01</h2>
-        <p>Description</p>
-      </div>
-      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-16.jpg" alt="item">
+      <img class="ct_carousel__hero--item__media" src="./assets/img/slides/baskı-21.jpg" alt="item">
     </div>
   </div>
   <!-- Carousel End -->
