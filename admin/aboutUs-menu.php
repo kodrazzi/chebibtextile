@@ -14,26 +14,26 @@
           <div class="row">
             <div class="input-field col s12">
               <input id="aboutUs-sidebar-tr" name="aboutUs-sidebar-tr" type="text" class="validate" value="<?php echo $db_aboutUs['sidebar_tr']; ?>">
-              <label for="aboutUs-sidebar-tr" class="">Menü Başlığı</label>
+              <label for="aboutUs-sidebar-tr" class="active">Menü Başlığı</label>
             </div>
             <div class="input-field col s12">
               <textarea id="aboutUs-sidebar-tr-text" name="aboutUs-sidebar-tr-text" class="materialize-textarea" length="5000" class="validate">
                 <?php echo $db_aboutUs['text_tr']; ?>
               </textarea>
-              <label for="aboutUs-sidebar-tr-text" class="">İçerik</label>
+              <label for="aboutUs-sidebar-tr-text" class="active">İçerik</label>
               <span class="character-counter" style="float: right; font-size: 12px; height: 1px;"></span>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <input id="aboutUs-sidebar-en" name="aboutUs-sidebar-en" type="text" class="validate" value="<?php echo $db_aboutUs['sidebar_en']; ?>">
-              <label for="aboutUs-sidebar-en" class="">Menu Header</label>
+              <label for="aboutUs-sidebar-en" class="active">Menu Header</label>
             </div>
             <div class="input-field col s12">
               <textarea id="aboutUs-sidebar-en-text" name="aboutUs-sidebar-en-text" class="materialize-textarea" length="5000" class="validate">
                 <?php echo $db_aboutUs['text_en']; ?>
               </textarea>
-              <label for="aboutUs-sidebar-en-text" class="">Content</label>
+              <label for="aboutUs-sidebar-en-text" class="active">Content</label>
               <span class="character-counter" style="float: right; font-size: 12px; height: 1px;"></span>
             </div>
           </div>

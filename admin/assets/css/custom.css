@@ -6,7 +6,7 @@
 
 .filigran-image {
   display: block;
-  height: auto;
+  height: 162.5px;
 }
 
 .overlay {
@@ -21,7 +21,21 @@
   transition: .5s ease;
   background-color: rgba(128, 128, 128, 0.8);
 }
-
+.overlay-left{
+  left: 0 !important;
+  right: 50% !important;
+  width: 50% !important;
+  padding: 5px;
+  border: 2px solid rgba(250, 250, 250, 0.5);
+}
+.overlay-right{
+  left: 50% !important;
+  right: 0 !important;
+  width: 50% !important;
+  padding: 5px;
+  border: 2px solid rgba(250, 250, 250, 0.5);
+}
+  
 .filigran-container:hover .overlay {
   opacity: 1;
 }
