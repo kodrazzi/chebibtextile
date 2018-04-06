@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    $('ul.tabs').tabs('select_tab', 'test6');
+$(document).ready(function(){
+    $('ul.tabs').tabs('select_tab', 'test6');
 });
